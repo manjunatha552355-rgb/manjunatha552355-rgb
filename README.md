@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Manjunatha M 👋</h1>
 
 <p align="center">
-  <b>AI / LLM Engineer</b> — I build language models from scratch and ship end-to-end GenAI products.
+  <b>AI / LLM Engineer</b> — I build Large language models from scratch and ship end-to-end GenAI products.
 </p>
 
 <p align="center">
