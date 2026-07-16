@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:manjunatha552355@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://aiandmlconsultants.com/"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 </p>
@@ -80,6 +81,7 @@
 
 ## Connect
 
+- 💼 LinkedIn: [linkedin.com/in/manjunatha-m-ai-ml-genai-llm](https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm)
 - ✉️ Email: [manjunatha552355@gmail.com](mailto:manjunatha552355@gmail.com)
 - 🌐 Portfolio: [aiandmlconsultants.com](https://aiandmlconsultants.com/)
 
