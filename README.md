@@ -68,14 +68,14 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=manjunatha552355-rgb&show_icons=true&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api?username=manjunatha552355-rgb&show_icons=true&hide_border=true" alt="GitHub stats"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=manjunatha552355-rgb&show_icons=true&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=manjunatha552355-rgb&show_icons=true&hide_border=true" alt="GitHub stats"/>
   </picture>
 </p>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=manjunatha552355-rgb&layout=compact&theme=dark&hide_border=true">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=manjunatha552355-rgb&layout=compact&hide_border=true" alt="Top languages"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=manjunatha552355-rgb&layout=compact&theme=dark&hide_border=true">
+    <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=manjunatha552355-rgb&layout=compact&hide_border=true" alt="Top languages"/>
   </picture>
 </p>
 
