@@ -118,13 +118,13 @@ I design and build AI systems end to end, from data pipelines and model architec
 
 ## GitHub Activity
 
-<picture><source media="(max-width: 600px)" srcset="profile/generated/activity-m.svg"><img src="profile/generated/activity.svg" width="100%" alt="Contribution calendar, Oct 5, 2025 – Oct 2, 2026: 47 contributions in 12 months on 9 active days; longest streak 1 days."></picture>
+<picture><source media="(max-width: 600px)" srcset="profile/generated/activity-m.svg"><img src="profile/generated/activity.svg" width="100%" alt="Contribution calendar, Oct 5, 2025 – Oct 2, 2026: 48 contributions in 12 months on 11 active days; longest streak 2 days."></picture>
 
 <picture><source media="(max-width: 600px)" srcset="profile/generated/timeline-m.svg"><img src="profile/generated/timeline.svg" width="100%" alt="Recent activity: Oct 1, 2026 cortextrace — Latest commit on main · TypeScript; Jul 16, 2026 Dwarka-trading — Latest commit on main · Python; Jul 16, 2026 AURA-AI-Assistant — Latest commit on master · Kotlin; Jun 2, 2026 toon-llm — Latest commit on master · Python; Apr 15, 2026 email-generation-assistant — Latest commit on main · Python"></picture>
 
 ## Engineering Statistics
 
-<picture><source media="(max-width: 600px)" srcset="profile/generated/stats-m.svg"><img src="profile/generated/stats.svg" width="100%" alt="Engineering Statistics: Public repositories 5, Commits (default branches) 31, Contributions · 12 mo 47, Pull requests · 12 mo 2, Stars earned 1, Languages 7"></picture>
+<picture><source media="(max-width: 600px)" srcset="profile/generated/stats-m.svg"><img src="profile/generated/stats.svg" width="100%" alt="Engineering Statistics: Public repositories 5, Commits (default branches) 31, Contributions · 12 mo 48, Pull requests · 12 mo 2, Stars earned 1, Languages 7"></picture>
 
 <picture><source media="(max-width: 600px)" srcset="profile/generated/distribution-m.svg"><img src="profile/generated/distribution.svg" width="100%" alt="Languages: Python 40.4%, TypeScript 30.8%, JavaScript 10.9%, Kotlin 10.0%, HTML 5.4%, CSS 2.4%. Projects by category: LLM &amp; RAG 1, Generative AI 1, AI Agents &amp; Tooling 1, AI &amp; Machine Learning 1, Analytics 1."></picture>
 
