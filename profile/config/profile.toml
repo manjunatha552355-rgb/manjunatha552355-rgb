@@ -1,0 +1,227 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Profile configuration — the ONLY hand-maintained data in this repository.
+# Everything else (repos, stats, activity, languages, cards) comes from the
+# GitHub API on every refresh. Edit, push, and the workflow rebuilds.
+# ─────────────────────────────────────────────────────────────────────────────
+
+[identity]
+login = "manjunatha552355-rgb"
+name = "Manjunatha M."
+roles = ["AI/ML Engineer", "Data Scientist", "Data Engineer", "Business Analyst", "Solution Architect"]
+headline = "Building AI systems end to end: data, models, evaluation and production delivery."
+location = "Bengaluru, India"
+
+# Rendered verbatim under "Professional Overview". Keep every claim verifiable.
+overview = """
+I design and build AI systems end to end, from data pipelines and model architecture \
+through evaluation to production delivery. My public work includes a domain-specific \
+financial language model trained from scratch, an on-device speech pipeline for Android, \
+an LLM evaluation framework for generative applications, and local-first observability \
+tooling for AI agents. I care about measurable quality, cost-aware architecture and \
+systems that remain maintainable after launch.
+"""
+
+[[links]]
+label = "LinkedIn"
+url = "https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"
+
+[[links]]
+label = "Website"
+url = "https://aiandmlconsultants.com/"
+
+[[links]]
+label = "Email"
+url = "mailto:manjunatha552355@gmail.com"
+
+# ── Visibility ───────────────────────────────────────────────────────────────
+[repos]
+# Private repositories are only read when PROFILE_TOKEN is set AND this is true.
+# Their names/descriptions would then be public on your profile — opt in deliberately.
+include_private = false
+include_forks = false
+include_archived = true        # shown with an "Archived" marker
+exclude = ["manjunatha552355-rgb", "manjunatha552355-rgb.github.io"]
+
+# ── Featured projects ────────────────────────────────────────────────────────
+[featured]
+count = 4   # automatic selection fills the remaining slots by score (activity, depth, completeness)
+
+# ── Repository Explorer ──────────────────────────────────────────────────────
+[explorer]
+max_per_category = 12   # README stays compact; the full list goes to profile/CATALOG.md
+
+# ── Feature extraction ───────────────────────────────────────────────────────
+[analysis]
+# README headings searched for capability bullets/tables, in priority order.
+feature_sections = ["Key Features", "Features", "Capabilities", "Highlights", "What it does",
+                    "Use Cases", "Overview", "Architecture", "How it works"]
+max_features = 4
+# Files read (if present) as technology evidence.
+manifests = ["requirements.txt", "pyproject.toml", "Pipfile", "environment.yml", "package.json",
+             "build.gradle.kts", "app/build.gradle.kts", "gradle/libs.versions.toml",
+             "Dockerfile", "docker-compose.yml", "compose.yaml", "go.mod", "Cargo.toml",
+             "edge/wrangler.toml", "wrangler.toml", ".github/workflows"]
+ignore_languages = ["Batchfile", "Procfile", "Makefile", "PowerShell"]
+
+# ── Per-project curation (optional) ──────────────────────────────────────────
+# Keys are repository names. Every field is optional:
+#   featured = true|false   pin or exclude from Featured
+#   category = "..."        override automatic classification
+#   tagline  = "..."        replaces the GitHub description on cards
+#   features = ["...", ...] replaces README-extracted capabilities
+#   demo / docs / architecture = "url"
+[projects.toon-llm]
+featured = true
+
+[projects.cortextrace]
+docs = "https://github.com/manjunatha552355-rgb/cortextrace/tree/HEAD/docs"
+architecture = "https://github.com/manjunatha552355-rgb/cortextrace/blob/HEAD/docs/ARCHITECTURE.md"
+
+# ── Classification ───────────────────────────────────────────────────────────
+# Scored: topic match = 3, keyword in description/README = 1, language = 1.
+# Highest score wins (ties → earlier category). Below min_score → "Other".
+[classification]
+min_score = 2
+
+[[categories]]
+name = "LLM & RAG"
+topics = ["llm", "llms", "rag", "langchain", "llamaindex", "transformers", "mixture-of-experts",
+          "vector-database", "embeddings", "fine-tuning", "nlp"]
+keywords = ["language model", "retrieval-augmented", "pre-training", "fine-tuning", "tokenizer"]
+
+[[categories]]
+name = "Generative AI"
+topics = ["generative-ai", "genai", "gemini", "openai", "prompt-engineering", "llm-evaluation", "chatbot"]
+keywords = ["generation", "prompt", "llm-as-judge", "gemini", "gpt"]
+
+[[categories]]
+name = "AI Agents & Tooling"
+topics = ["ai-agents", "agents", "agentic-ai", "mcp", "claude-code", "cursor", "observability"]
+keywords = ["agent", "mcp", "tool calls", "tracing"]
+
+[[categories]]
+name = "AI & Machine Learning"
+topics = ["machine-learning", "deep-learning", "pytorch", "tensorflow", "onnx", "whisper",
+          "computer-vision", "voice-assistant", "speech-recognition"]
+keywords = ["model", "inference", "neural", "transcription", "classification"]
+
+[[categories]]
+name = "Data Engineering"
+topics = ["data-engineering", "etl", "pyspark", "spark", "airflow", "kafka", "dbt", "databricks"]
+keywords = ["etl", "pipeline", "ingestion", "warehouse"]
+
+[[categories]]
+name = "Analytics"
+topics = ["analytics", "technical-analysis", "algorithmic-trading", "dashboard", "streamlit",
+          "power-bi", "tableau", "fintech"]
+keywords = ["dashboard", "screening", "report", "analytics"]
+
+[[categories]]
+name = "Developer Tools"
+topics = ["developer-tools", "cli", "electron", "vscode-extension", "devtools"]
+keywords = ["cli", "developer", "desktop app"]
+
+[[categories]]
+name = "Experiments"
+topics = ["experiment", "prototype", "poc", "playground"]
+keywords = ["proof of concept", "experiment"]
+
+# ── Engineering Focus ────────────────────────────────────────────────────────
+# Evidence = public repositories whose topics/category match, or whose README
+# features/prose mention one of `keywords`.
+[[focus]]
+title = "LLMs & Foundation Models"
+summary = "Architecture, pre-training and evaluation of language models."
+topics = ["llm", "nlp", "transformers", "mixture-of-experts", "fine-tuning"]
+categories = ["LLM & RAG"]
+
+[[focus]]
+title = "Generative AI & RAG"
+summary = "Prompt design, retrieval and LLM-as-judge evaluation."
+topics = ["generative-ai", "rag", "prompt-engineering", "llm-evaluation", "gemini"]
+categories = ["Generative AI"]
+
+[[focus]]
+title = "Agentic AI"
+summary = "Agents, tool use and the observability to trust them."
+topics = ["ai-agents", "agentic-ai", "mcp", "claude-code"]
+categories = ["AI Agents & Tooling"]
+
+[[focus]]
+title = "Machine Learning"
+summary = "Deep learning, on-device inference and applied ML."
+topics = ["machine-learning", "deep-learning", "pytorch", "onnx", "whisper"]
+categories = ["AI & Machine Learning"]
+
+[[focus]]
+title = "Data Engineering & Science"
+summary = "ETL pipelines, data quality and analytical modelling."
+topics = ["etl", "data-engineering", "data-science", "pyspark"]
+categories = ["Data Engineering"]
+keywords = ["etl", "data pipeline", "data quality"]   # matched in README features/prose
+
+[[focus]]
+title = "Analytics & Architecture"
+summary = "Decision dashboards and end-to-end solution design."
+topics = ["analytics", "technical-analysis", "streamlit", "algorithmic-trading", "dashboard"]
+categories = ["Analytics"]
+
+# ── Technology Ecosystem ─────────────────────────────────────────────────────
+# A technology is shown only with evidence: a match against repository topics,
+# dependency manifests or GitHub-detected languages. `match` terms are lowercase.
+# To list experience that has no public repository, add it under [stack.declared];
+# it is labelled "Professional experience", never presented as repository evidence.
+[stack.declared]
+# "Data & Analytics" = ["Power BI"]
+
+[technologies]
+"PyTorch"            = { group = "AI & ML", match = ["torch", "pytorch"] }
+"TensorFlow"         = { group = "AI & ML", match = ["tensorflow"] }
+"Scikit-learn"       = { group = "AI & ML", match = ["scikit-learn", "sklearn"] }
+"NumPy"              = { group = "AI & ML", match = ["numpy"] }
+"SciPy"              = { group = "AI & ML", match = ["scipy"] }
+"ONNX Runtime"       = { group = "AI & ML", match = ["onnx", "onnxruntime", "onnxruntime-android", "com.microsoft.onnxruntime"] }
+"Whisper"            = { group = "AI & ML", match = ["whisper", "openai-whisper", "faster-whisper"] }
+"Hugging Face"       = { group = "AI & ML", match = ["transformers", "huggingface", "huggingface-hub", "tokenizers"] }
+"LangChain"          = { group = "LLM & GenAI", match = ["langchain", "langchain-core", "langgraph"] }
+"LlamaIndex"         = { group = "LLM & GenAI", match = ["llama-index", "llamaindex"] }
+"FAISS"              = { group = "LLM & GenAI", match = ["faiss", "faiss-cpu", "faiss-gpu"] }
+"Google Gemini"      = { group = "LLM & GenAI", match = ["gemini", "google-generativeai", "google-genai"] }
+"OpenAI API"         = { group = "LLM & GenAI", match = ["openai"] }
+"Anthropic API"      = { group = "LLM & GenAI", match = ["anthropic", "anthropic-ai"] }
+"Groq"               = { group = "LLM & GenAI", match = ["groq"] }
+"Model Context Protocol" = { group = "LLM & GenAI", match = ["mcp", "modelcontextprotocol"] }
+"Pandas"             = { group = "Data & Analytics", match = ["pandas"] }
+"PySpark"            = { group = "Data & Analytics", match = ["pyspark", "spark"] }
+"Polars"             = { group = "Data & Analytics", match = ["polars"] }
+"SQLAlchemy"         = { group = "Data & Analytics", match = ["sqlalchemy"] }
+"PostgreSQL"         = { group = "Data & Analytics", match = ["postgresql", "psycopg2", "psycopg", "psycopg2-binary", "asyncpg"] }
+"SQLite"             = { group = "Data & Analytics", match = ["sqlite", "sqlite3", "better-sqlite3", "aiosqlite"] }
+"MongoDB"            = { group = "Data & Analytics", match = ["pymongo", "mongodb", "mongoose", "motor"] }
+"Plotly"             = { group = "Data & Analytics", match = ["plotly"] }
+"Matplotlib"         = { group = "Data & Analytics", match = ["matplotlib"] }
+"Airflow"            = { group = "Data & Analytics", match = ["apache-airflow", "airflow"] }
+"Kafka"              = { group = "Data & Analytics", match = ["kafka", "kafka-python", "confluent-kafka"] }
+"yfinance"           = { group = "Data & Analytics", match = ["yfinance"] }
+"FastAPI"            = { group = "Backend & APIs", match = ["fastapi"] }
+"Flask"              = { group = "Backend & APIs", match = ["flask"] }
+"Django"             = { group = "Backend & APIs", match = ["django"] }
+"Streamlit"          = { group = "Backend & APIs", match = ["streamlit"] }
+"Pydantic"           = { group = "Backend & APIs", match = ["pydantic"] }
+"OpenTelemetry"      = { group = "Backend & APIs", match = ["opentelemetry"] }
+"Docker"             = { group = "Cloud & DevOps", match = ["docker", "dockerfile", "docker-compose.yml", "compose.yaml"] }
+"Kubernetes"         = { group = "Cloud & DevOps", match = ["kubernetes", "k8s", "helm"] }
+"Terraform"          = { group = "Cloud & DevOps", match = ["terraform", "hcl"] }
+"AWS"                = { group = "Cloud & DevOps", match = ["aws", "boto3", "aws-sdk"] }
+"Azure"              = { group = "Cloud & DevOps", match = ["azure"] }
+"Google Cloud"       = { group = "Cloud & DevOps", match = ["gcp", "google-cloud-storage", "google-cloud-bigquery"] }
+"Cloudflare Workers" = { group = "Cloud & DevOps", match = ["cloudflare-workers", "wrangler", "wrangler.toml", "edge/wrangler.toml"] }
+"GitHub Actions"     = { group = "Cloud & DevOps", match = [".github/workflows", "github-actions"] }
+"Electron"           = { group = "Apps & Platforms", match = ["electron"] }
+"React"              = { group = "Apps & Platforms", match = ["react", "react-dom"] }
+"Astro"              = { group = "Apps & Platforms", match = ["astro"] }
+"Jetpack Compose"    = { group = "Apps & Platforms", match = ["jetpack-compose", "androidx.compose", "compose-bom"] }
+"Android"            = { group = "Apps & Platforms", match = ["android", "com.android.application"] }
+"Room"               = { group = "Apps & Platforms", match = ["androidx.room", "room-runtime"] }
+"WorkManager"        = { group = "Apps & Platforms", match = ["androidx.work", "work-runtime-ktx"] }
+"Hilt"               = { group = "Apps & Platforms", match = ["hilt-android", "dagger.hilt", "com.google.dagger"] }

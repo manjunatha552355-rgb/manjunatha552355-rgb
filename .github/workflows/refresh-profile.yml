@@ -1,0 +1,61 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "23 2 * * *"            # daily, 02:23 UTC
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Re-read every README and manifest (ignore cache)"
+        type: boolean
+        default: false
+  repository_dispatch:
+    types: [refresh-profile]       # optional: other repos can trigger a refresh
+  push:
+    branches: [main]
+    paths:
+      - "profile/config/**"
+      - "profile/scripts/**"
+      - "profile/templates/**"
+      - ".github/workflows/refresh-profile.yml"
+
+permissions:
+  contents: write                  # commit regenerated assets; nothing else
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Self-checks
+        run: python -m unittest discover -s profile/scripts
+
+      - name: Build profile from GitHub data
+        env:
+          # PROFILE_TOKEN (optional secret) adds private contribution counts and,
+          # only if include_private = true in config, private repository metadata.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
+          FULL: ${{ inputs.full && '--full' || '' }}
+        run: python profile/scripts/build.py $FULL
+
+      - name: Commit if anything changed
+        run: |
+          git add -A README.md profile
+          if git diff --cached --quiet; then
+            echo "Profile already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(profile): refresh from GitHub data"
+          git push

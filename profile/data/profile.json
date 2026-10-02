@@ -1,0 +1,2701 @@
+{
+ "activity": {
+  "active_days": 9,
+  "best_day": {
+   "count": 16,
+   "date": "2026-09-15"
+  },
+  "commits": 36,
+  "current_streak": 1,
+  "days": [
+   [
+    "2025-10-03",
+    0
+   ],
+   [
+    "2025-10-04",
+    0
+   ],
+   [
+    "2025-10-05",
+    0
+   ],
+   [
+    "2025-10-06",
+    0
+   ],
+   [
+    "2025-10-07",
+    0
+   ],
+   [
+    "2025-10-08",
+    0
+   ],
+   [
+    "2025-10-09",
+    0
+   ],
+   [
+    "2025-10-10",
+    0
+   ],
+   [
+    "2025-10-11",
+    0
+   ],
+   [
+    "2025-10-12",
+    0
+   ],
+   [
+    "2025-10-13",
+    0
+   ],
+   [
+    "2025-10-14",
+    0
+   ],
+   [
+    "2025-10-15",
+    0
+   ],
+   [
+    "2025-10-16",
+    0
+   ],
+   [
+    "2025-10-17",
+    0
+   ],
+   [
+    "2025-10-18",
+    0
+   ],
+   [
+    "2025-10-19",
+    0
+   ],
+   [
+    "2025-10-20",
+    0
+   ],
+   [
+    "2025-10-21",
+    0
+   ],
+   [
+    "2025-10-22",
+    0
+   ],
+   [
+    "2025-10-23",
+    0
+   ],
+   [
+    "2025-10-24",
+    0
+   ],
+   [
+    "2025-10-25",
+    0
+   ],
+   [
+    "2025-10-26",
+    0
+   ],
+   [
+    "2025-10-27",
+    0
+   ],
+   [
+    "2025-10-28",
+    0
+   ],
+   [
+    "2025-10-29",
+    0
+   ],
+   [
+    "2025-10-30",
+    0
+   ],
+   [
+    "2025-10-31",
+    0
+   ],
+   [
+    "2025-11-01",
+    0
+   ],
+   [
+    "2025-11-02",
+    0
+   ],
+   [
+    "2025-11-03",
+    0
+   ],
+   [
+    "2025-11-04",
+    0
+   ],
+   [
+    "2025-11-05",
+    0
+   ],
+   [
+    "2025-11-06",
+    0
+   ],
+   [
+    "2025-11-07",
+    0
+   ],
+   [
+    "2025-11-08",
+    0
+   ],
+   [
+    "2025-11-09",
+    0
+   ],
+   [
+    "2025-11-10",
+    0
+   ],
+   [
+    "2025-11-11",
+    0
+   ],
+   [
+    "2025-11-12",
+    0
+   ],
+   [
+    "2025-11-13",
+    0
+   ],
+   [
+    "2025-11-14",
+    0
+   ],
+   [
+    "2025-11-15",
+    0
+   ],
+   [
+    "2025-11-16",
+    0
+   ],
+   [
+    "2025-11-17",
+    0
+   ],
+   [
+    "2025-11-18",
+    0
+   ],
+   [
+    "2025-11-19",
+    0
+   ],
+   [
+    "2025-11-20",
+    0
+   ],
+   [
+    "2025-11-21",
+    0
+   ],
+   [
+    "2025-11-22",
+    0
+   ],
+   [
+    "2025-11-23",
+    0
+   ],
+   [
+    "2025-11-24",
+    1
+   ],
+   [
+    "2025-11-25",
+    0
+   ],
+   [
+    "2025-11-26",
+    0
+   ],
+   [
+    "2025-11-27",
+    0
+   ],
+   [
+    "2025-11-28",
+    0
+   ],
+   [
+    "2025-11-29",
+    0
+   ],
+   [
+    "2025-11-30",
+    0
+   ],
+   [
+    "2025-12-01",
+    0
+   ],
+   [
+    "2025-12-02",
+    0
+   ],
+   [
+    "2025-12-03",
+    0
+   ],
+   [
+    "2025-12-04",
+    0
+   ],
+   [
+    "2025-12-05",
+    0
+   ],
+   [
+    "2025-12-06",
+    0
+   ],
+   [
+    "2025-12-07",
+    0
+   ],
+   [
+    "2025-12-08",
+    0
+   ],
+   [
+    "2025-12-09",
+    0
+   ],
+   [
+    "2025-12-10",
+    0
+   ],
+   [
+    "2025-12-11",
+    0
+   ],
+   [
+    "2025-12-12",
+    0
+   ],
+   [
+    "2025-12-13",
+    0
+   ],
+   [
+    "2025-12-14",
+    0
+   ],
+   [
+    "2025-12-15",
+    0
+   ],
+   [
+    "2025-12-16",
+    0
+   ],
+   [
+    "2025-12-17",
+    0
+   ],
+   [
+    "2025-12-18",
+    0
+   ],
+   [
+    "2025-12-19",
+    0
+   ],
+   [
+    "2025-12-20",
+    0
+   ],
+   [
+    "2025-12-21",
+    0
+   ],
+   [
+    "2025-12-22",
+    0
+   ],
+   [
+    "2025-12-23",
+    0
+   ],
+   [
+    "2025-12-24",
+    0
+   ],
+   [
+    "2025-12-25",
+    0
+   ],
+   [
+    "2025-12-26",
+    1
+   ],
+   [
+    "2025-12-27",
+    0
+   ],
+   [
+    "2025-12-28",
+    0
+   ],
+   [
+    "2025-12-29",
+    0
+   ],
+   [
+    "2025-12-30",
+    0
+   ],
+   [
+    "2025-12-31",
+    0
+   ],
+   [
+    "2026-01-01",
+    0
+   ],
+   [
+    "2026-01-02",
+    0
+   ],
+   [
+    "2026-01-03",
+    0
+   ],
+   [
+    "2026-01-04",
+    0
+   ],
+   [
+    "2026-01-05",
+    0
+   ],
+   [
+    "2026-01-06",
+    0
+   ],
+   [
+    "2026-01-07",
+    0
+   ],
+   [
+    "2026-01-08",
+    0
+   ],
+   [
+    "2026-01-09",
+    0
+   ],
+   [
+    "2026-01-10",
+    0
+   ],
+   [
+    "2026-01-11",
+    0
+   ],
+   [
+    "2026-01-12",
+    0
+   ],
+   [
+    "2026-01-13",
+    0
+   ],
+   [
+    "2026-01-14",
+    0
+   ],
+   [
+    "2026-01-15",
+    0
+   ],
+   [
+    "2026-01-16",
+    0
+   ],
+   [
+    "2026-01-17",
+    0
+   ],
+   [
+    "2026-01-18",
+    0
+   ],
+   [
+    "2026-01-19",
+    0
+   ],
+   [
+    "2026-01-20",
+    0
+   ],
+   [
+    "2026-01-21",
+    0
+   ],
+   [
+    "2026-01-22",
+    0
+   ],
+   [
+    "2026-01-23",
+    0
+   ],
+   [
+    "2026-01-24",
+    0
+   ],
+   [
+    "2026-01-25",
+    0
+   ],
+   [
+    "2026-01-26",
+    0
+   ],
+   [
+    "2026-01-27",
+    0
+   ],
+   [
+    "2026-01-28",
+    0
+   ],
+   [
+    "2026-01-29",
+    0
+   ],
+   [
+    "2026-01-30",
+    0
+   ],
+   [
+    "2026-01-31",
+    0
+   ],
+   [
+    "2026-02-01",
+    0
+   ],
+   [
+    "2026-02-02",
+    0
+   ],
+   [
+    "2026-02-03",
+    0
+   ],
+   [
+    "2026-02-04",
+    0
+   ],
+   [
+    "2026-02-05",
+    0
+   ],
+   [
+    "2026-02-06",
+    0
+   ],
+   [
+    "2026-02-07",
+    0
+   ],
+   [
+    "2026-02-08",
+    0
+   ],
+   [
+    "2026-02-09",
+    0
+   ],
+   [
+    "2026-02-10",
+    0
+   ],
+   [
+    "2026-02-11",
+    0
+   ],
+   [
+    "2026-02-12",
+    0
+   ],
+   [
+    "2026-02-13",
+    0
+   ],
+   [
+    "2026-02-14",
+    0
+   ],
+   [
+    "2026-02-15",
+    0
+   ],
+   [
+    "2026-02-16",
+    0
+   ],
+   [
+    "2026-02-17",
+    0
+   ],
+   [
+    "2026-02-18",
+    0
+   ],
+   [
+    "2026-02-19",
+    0
+   ],
+   [
+    "2026-02-20",
+    0
+   ],
+   [
+    "2026-02-21",
+    0
+   ],
+   [
+    "2026-02-22",
+    0
+   ],
+   [
+    "2026-02-23",
+    0
+   ],
+   [
+    "2026-02-24",
+    0
+   ],
+   [
+    "2026-02-25",
+    0
+   ],
+   [
+    "2026-02-26",
+    0
+   ],
+   [
+    "2026-02-27",
+    0
+   ],
+   [
+    "2026-02-28",
+    0
+   ],
+   [
+    "2026-03-01",
+    0
+   ],
+   [
+    "2026-03-02",
+    0
+   ],
+   [
+    "2026-03-03",
+    0
+   ],
+   [
+    "2026-03-04",
+    0
+   ],
+   [
+    "2026-03-05",
+    0
+   ],
+   [
+    "2026-03-06",
+    0
+   ],
+   [
+    "2026-03-07",
+    0
+   ],
+   [
+    "2026-03-08",
+    0
+   ],
+   [
+    "2026-03-09",
+    0
+   ],
+   [
+    "2026-03-10",
+    0
+   ],
+   [
+    "2026-03-11",
+    0
+   ],
+   [
+    "2026-03-12",
+    0
+   ],
+   [
+    "2026-03-13",
+    0
+   ],
+   [
+    "2026-03-14",
+    0
+   ],
+   [
+    "2026-03-15",
+    0
+   ],
+   [
+    "2026-03-16",
+    0
+   ],
+   [
+    "2026-03-17",
+    0
+   ],
+   [
+    "2026-03-18",
+    0
+   ],
+   [
+    "2026-03-19",
+    0
+   ],
+   [
+    "2026-03-20",
+    0
+   ],
+   [
+    "2026-03-21",
+    0
+   ],
+   [
+    "2026-03-22",
+    0
+   ],
+   [
+    "2026-03-23",
+    0
+   ],
+   [
+    "2026-03-24",
+    0
+   ],
+   [
+    "2026-03-25",
+    0
+   ],
+   [
+    "2026-03-26",
+    0
+   ],
+   [
+    "2026-03-27",
+    0
+   ],
+   [
+    "2026-03-28",
+    0
+   ],
+   [
+    "2026-03-29",
+    0
+   ],
+   [
+    "2026-03-30",
+    0
+   ],
+   [
+    "2026-03-31",
+    0
+   ],
+   [
+    "2026-04-01",
+    0
+   ],
+   [
+    "2026-04-02",
+    0
+   ],
+   [
+    "2026-04-03",
+    0
+   ],
+   [
+    "2026-04-04",
+    0
+   ],
+   [
+    "2026-04-05",
+    0
+   ],
+   [
+    "2026-04-06",
+    0
+   ],
+   [
+    "2026-04-07",
+    0
+   ],
+   [
+    "2026-04-08",
+    0
+   ],
+   [
+    "2026-04-09",
+    0
+   ],
+   [
+    "2026-04-10",
+    0
+   ],
+   [
+    "2026-04-11",
+    0
+   ],
+   [
+    "2026-04-12",
+    0
+   ],
+   [
+    "2026-04-13",
+    0
+   ],
+   [
+    "2026-04-14",
+    0
+   ],
+   [
+    "2026-04-15",
+    0
+   ],
+   [
+    "2026-04-16",
+    3
+   ],
+   [
+    "2026-04-17",
+    0
+   ],
+   [
+    "2026-04-18",
+    0
+   ],
+   [
+    "2026-04-19",
+    0
+   ],
+   [
+    "2026-04-20",
+    0
+   ],
+   [
+    "2026-04-21",
+    0
+   ],
+   [
+    "2026-04-22",
+    0
+   ],
+   [
+    "2026-04-23",
+    0
+   ],
+   [
+    "2026-04-24",
+    0
+   ],
+   [
+    "2026-04-25",
+    0
+   ],
+   [
+    "2026-04-26",
+    0
+   ],
+   [
+    "2026-04-27",
+    0
+   ],
+   [
+    "2026-04-28",
+    0
+   ],
+   [
+    "2026-04-29",
+    0
+   ],
+   [
+    "2026-04-30",
+    0
+   ],
+   [
+    "2026-05-01",
+    0
+   ],
+   [
+    "2026-05-02",
+    0
+   ],
+   [
+    "2026-05-03",
+    0
+   ],
+   [
+    "2026-05-04",
+    0
+   ],
+   [
+    "2026-05-05",
+    0
+   ],
+   [
+    "2026-05-06",
+    0
+   ],
+   [
+    "2026-05-07",
+    0
+   ],
+   [
+    "2026-05-08",
+    0
+   ],
+   [
+    "2026-05-09",
+    0
+   ],
+   [
+    "2026-05-10",
+    0
+   ],
+   [
+    "2026-05-11",
+    0
+   ],
+   [
+    "2026-05-12",
+    0
+   ],
+   [
+    "2026-05-13",
+    0
+   ],
+   [
+    "2026-05-14",
+    0
+   ],
+   [
+    "2026-05-15",
+    0
+   ],
+   [
+    "2026-05-16",
+    0
+   ],
+   [
+    "2026-05-17",
+    0
+   ],
+   [
+    "2026-05-18",
+    0
+   ],
+   [
+    "2026-05-19",
+    0
+   ],
+   [
+    "2026-05-20",
+    0
+   ],
+   [
+    "2026-05-21",
+    0
+   ],
+   [
+    "2026-05-22",
+    0
+   ],
+   [
+    "2026-05-23",
+    0
+   ],
+   [
+    "2026-05-24",
+    0
+   ],
+   [
+    "2026-05-25",
+    0
+   ],
+   [
+    "2026-05-26",
+    0
+   ],
+   [
+    "2026-05-27",
+    0
+   ],
+   [
+    "2026-05-28",
+    0
+   ],
+   [
+    "2026-05-29",
+    0
+   ],
+   [
+    "2026-05-30",
+    0
+   ],
+   [
+    "2026-05-31",
+    0
+   ],
+   [
+    "2026-06-01",
+    0
+   ],
+   [
+    "2026-06-02",
+    2
+   ],
+   [
+    "2026-06-03",
+    0
+   ],
+   [
+    "2026-06-04",
+    0
+   ],
+   [
+    "2026-06-05",
+    0
+   ],
+   [
+    "2026-06-06",
+    0
+   ],
+   [
+    "2026-06-07",
+    0
+   ],
+   [
+    "2026-06-08",
+    0
+   ],
+   [
+    "2026-06-09",
+    0
+   ],
+   [
+    "2026-06-10",
+    0
+   ],
+   [
+    "2026-06-11",
+    0
+   ],
+   [
+    "2026-06-12",
+    0
+   ],
+   [
+    "2026-06-13",
+    0
+   ],
+   [
+    "2026-06-14",
+    0
+   ],
+   [
+    "2026-06-15",
+    0
+   ],
+   [
+    "2026-06-16",
+    0
+   ],
+   [
+    "2026-06-17",
+    0
+   ],
+   [
+    "2026-06-18",
+    0
+   ],
+   [
+    "2026-06-19",
+    0
+   ],
+   [
+    "2026-06-20",
+    0
+   ],
+   [
+    "2026-06-21",
+    0
+   ],
+   [
+    "2026-06-22",
+    0
+   ],
+   [
+    "2026-06-23",
+    0
+   ],
+   [
+    "2026-06-24",
+    0
+   ],
+   [
+    "2026-06-25",
+    0
+   ],
+   [
+    "2026-06-26",
+    0
+   ],
+   [
+    "2026-06-27",
+    0
+   ],
+   [
+    "2026-06-28",
+    0
+   ],
+   [
+    "2026-06-29",
+    0
+   ],
+   [
+    "2026-06-30",
+    0
+   ],
+   [
+    "2026-07-01",
+    0
+   ],
+   [
+    "2026-07-02",
+    0
+   ],
+   [
+    "2026-07-03",
+    0
+   ],
+   [
+    "2026-07-04",
+    0
+   ],
+   [
+    "2026-07-05",
+    0
+   ],
+   [
+    "2026-07-06",
+    0
+   ],
+   [
+    "2026-07-07",
+    0
+   ],
+   [
+    "2026-07-08",
+    0
+   ],
+   [
+    "2026-07-09",
+    0
+   ],
+   [
+    "2026-07-10",
+    0
+   ],
+   [
+    "2026-07-11",
+    0
+   ],
+   [
+    "2026-07-12",
+    0
+   ],
+   [
+    "2026-07-13",
+    0
+   ],
+   [
+    "2026-07-14",
+    0
+   ],
+   [
+    "2026-07-15",
+    0
+   ],
+   [
+    "2026-07-16",
+    7
+   ],
+   [
+    "2026-07-17",
+    0
+   ],
+   [
+    "2026-07-18",
+    0
+   ],
+   [
+    "2026-07-19",
+    0
+   ],
+   [
+    "2026-07-20",
+    0
+   ],
+   [
+    "2026-07-21",
+    0
+   ],
+   [
+    "2026-07-22",
+    0
+   ],
+   [
+    "2026-07-23",
+    0
+   ],
+   [
+    "2026-07-24",
+    0
+   ],
+   [
+    "2026-07-25",
+    0
+   ],
+   [
+    "2026-07-26",
+    0
+   ],
+   [
+    "2026-07-27",
+    0
+   ],
+   [
+    "2026-07-28",
+    0
+   ],
+   [
+    "2026-07-29",
+    0
+   ],
+   [
+    "2026-07-30",
+    0
+   ],
+   [
+    "2026-07-31",
+    0
+   ],
+   [
+    "2026-08-01",
+    0
+   ],
+   [
+    "2026-08-02",
+    0
+   ],
+   [
+    "2026-08-03",
+    0
+   ],
+   [
+    "2026-08-04",
+    0
+   ],
+   [
+    "2026-08-05",
+    0
+   ],
+   [
+    "2026-08-06",
+    0
+   ],
+   [
+    "2026-08-07",
+    0
+   ],
+   [
+    "2026-08-08",
+    0
+   ],
+   [
+    "2026-08-09",
+    0
+   ],
+   [
+    "2026-08-10",
+    0
+   ],
+   [
+    "2026-08-11",
+    0
+   ],
+   [
+    "2026-08-12",
+    0
+   ],
+   [
+    "2026-08-13",
+    0
+   ],
+   [
+    "2026-08-14",
+    0
+   ],
+   [
+    "2026-08-15",
+    0
+   ],
+   [
+    "2026-08-16",
+    0
+   ],
+   [
+    "2026-08-17",
+    0
+   ],
+   [
+    "2026-08-18",
+    0
+   ],
+   [
+    "2026-08-19",
+    0
+   ],
+   [
+    "2026-08-20",
+    0
+   ],
+   [
+    "2026-08-21",
+    0
+   ],
+   [
+    "2026-08-22",
+    0
+   ],
+   [
+    "2026-08-23",
+    0
+   ],
+   [
+    "2026-08-24",
+    0
+   ],
+   [
+    "2026-08-25",
+    0
+   ],
+   [
+    "2026-08-26",
+    0
+   ],
+   [
+    "2026-08-27",
+    0
+   ],
+   [
+    "2026-08-28",
+    0
+   ],
+   [
+    "2026-08-29",
+    0
+   ],
+   [
+    "2026-08-30",
+    0
+   ],
+   [
+    "2026-08-31",
+    0
+   ],
+   [
+    "2026-09-01",
+    0
+   ],
+   [
+    "2026-09-02",
+    0
+   ],
+   [
+    "2026-09-03",
+    0
+   ],
+   [
+    "2026-09-04",
+    0
+   ],
+   [
+    "2026-09-05",
+    0
+   ],
+   [
+    "2026-09-06",
+    0
+   ],
+   [
+    "2026-09-07",
+    0
+   ],
+   [
+    "2026-09-08",
+    0
+   ],
+   [
+    "2026-09-09",
+    0
+   ],
+   [
+    "2026-09-10",
+    0
+   ],
+   [
+    "2026-09-11",
+    0
+   ],
+   [
+    "2026-09-12",
+    0
+   ],
+   [
+    "2026-09-13",
+    0
+   ],
+   [
+    "2026-09-14",
+    0
+   ],
+   [
+    "2026-09-15",
+    16
+   ],
+   [
+    "2026-09-16",
+    0
+   ],
+   [
+    "2026-09-17",
+    9
+   ],
+   [
+    "2026-09-18",
+    0
+   ],
+   [
+    "2026-09-19",
+    0
+   ],
+   [
+    "2026-09-20",
+    0
+   ],
+   [
+    "2026-09-21",
+    0
+   ],
+   [
+    "2026-09-22",
+    0
+   ],
+   [
+    "2026-09-23",
+    0
+   ],
+   [
+    "2026-09-24",
+    0
+   ],
+   [
+    "2026-09-25",
+    5
+   ],
+   [
+    "2026-09-26",
+    0
+   ],
+   [
+    "2026-09-27",
+    0
+   ],
+   [
+    "2026-09-28",
+    0
+   ],
+   [
+    "2026-09-29",
+    0
+   ],
+   [
+    "2026-09-30",
+    0
+   ],
+   [
+    "2026-10-01",
+    3
+   ],
+   [
+    "2026-10-02",
+    0
+   ]
+  ],
+  "external_repos": [
+   "slshoerackmarketing-png/sl-shoe-rack"
+  ],
+  "issues": 1,
+  "longest_streak": 1,
+  "pull_requests": 2,
+  "repos_created": 7,
+  "reviews": 0,
+  "total": 47
+ },
+ "categories": [
+  {
+   "name": "LLM & RAG",
+   "repos": [
+    "toon-llm"
+   ]
+  },
+  {
+   "name": "Generative AI",
+   "repos": [
+    "email-generation-assistant"
+   ]
+  },
+  {
+   "name": "AI Agents & Tooling",
+   "repos": [
+    "cortextrace"
+   ]
+  },
+  {
+   "name": "AI & Machine Learning",
+   "repos": [
+    "AURA-AI-Assistant"
+   ]
+  },
+  {
+   "name": "Analytics",
+   "repos": [
+    "Dwarka-trading"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-10-01T10:12:55Z",
+   "detail": "Latest commit on main · TypeScript",
+   "kind": "commit",
+   "title": "cortextrace"
+  },
+  {
+   "date": "2026-07-16T10:22:49Z",
+   "detail": "Latest commit on main · Python",
+   "kind": "commit",
+   "title": "Dwarka-trading"
+  },
+  {
+   "date": "2026-07-16T09:42:59Z",
+   "detail": "Latest commit on master · Kotlin",
+   "kind": "commit",
+   "title": "AURA-AI-Assistant"
+  },
+  {
+   "date": "2026-06-02T15:10:29Z",
+   "detail": "Latest commit on master · Python",
+   "kind": "commit",
+   "title": "toon-llm"
+  },
+  {
+   "date": "2026-04-15T18:39:02Z",
+   "detail": "Latest commit on main · Python",
+   "kind": "commit",
+   "title": "email-generation-assistant"
+  }
+ ],
+ "featured": [
+  "toon-llm",
+  "cortextrace",
+  "AURA-AI-Assistant",
+  "Dwarka-trading"
+ ],
+ "focus": [
+  {
+   "categories": [
+    "LLM & RAG"
+   ],
+   "repos": [
+    "toon-llm"
+   ],
+   "summary": "Architecture, pre-training and evaluation of language models.",
+   "title": "LLMs & Foundation Models",
+   "topics": [
+    "llm",
+    "nlp",
+    "transformers",
+    "mixture-of-experts",
+    "fine-tuning"
+   ]
+  },
+  {
+   "categories": [
+    "Generative AI"
+   ],
+   "repos": [
+    "email-generation-assistant"
+   ],
+   "summary": "Prompt design, retrieval and LLM-as-judge evaluation.",
+   "title": "Generative AI & RAG",
+   "topics": [
+    "generative-ai",
+    "rag",
+    "prompt-engineering",
+    "llm-evaluation",
+    "gemini"
+   ]
+  },
+  {
+   "categories": [
+    "AI Agents & Tooling"
+   ],
+   "repos": [
+    "cortextrace"
+   ],
+   "summary": "Agents, tool use and the observability to trust them.",
+   "title": "Agentic AI",
+   "topics": [
+    "ai-agents",
+    "agentic-ai",
+    "mcp",
+    "claude-code"
+   ]
+  },
+  {
+   "categories": [
+    "AI & Machine Learning"
+   ],
+   "repos": [
+    "AURA-AI-Assistant",
+    "toon-llm"
+   ],
+   "summary": "Deep learning, on-device inference and applied ML.",
+   "title": "Machine Learning",
+   "topics": [
+    "machine-learning",
+    "deep-learning",
+    "pytorch",
+    "onnx",
+    "whisper"
+   ]
+  },
+  {
+   "categories": [
+    "Data Engineering"
+   ],
+   "keywords": [
+    "etl",
+    "data pipeline",
+    "data quality"
+   ],
+   "repos": [
+    "toon-llm"
+   ],
+   "summary": "ETL pipelines, data quality and analytical modelling.",
+   "title": "Data Engineering & Science",
+   "topics": [
+    "etl",
+    "data-engineering",
+    "data-science",
+    "pyspark"
+   ]
+  },
+  {
+   "categories": [
+    "Analytics"
+   ],
+   "repos": [
+    "Dwarka-trading"
+   ],
+   "summary": "Decision dashboards and end-to-end solution design.",
+   "title": "Analytics & Architecture",
+   "topics": [
+    "analytics",
+    "technical-analysis",
+    "streamlit",
+    "algorithmic-trading",
+    "dashboard"
+   ]
+  }
+ ],
+ "languages": [
+  {
+   "bytes": 607769,
+   "name": "Python",
+   "share": 0.40402355661238415
+  },
+  {
+   "bytes": 463982,
+   "name": "TypeScript",
+   "share": 0.3084389921896761
+  },
+  {
+   "bytes": 164315,
+   "name": "JavaScript",
+   "share": 0.10923086025243786
+  },
+  {
+   "bytes": 151007,
+   "name": "Kotlin",
+   "share": 0.10038416769095873
+  },
+  {
+   "bytes": 81337,
+   "name": "HTML",
+   "share": 0.054069990447327014
+  },
+  {
+   "bytes": 35881,
+   "name": "CSS",
+   "share": 0.02385243280721616
+  }
+ ],
+ "latest_activity": "2026-10-01T10:12:58Z",
+ "login": "manjunatha552355-rgb",
+ "repos": [
+  {
+   "architecture": "https://github.com/manjunatha552355-rgb/cortextrace/blob/HEAD/docs/ARCHITECTURE.md",
+   "archived": false,
+   "branch": "main",
+   "cache_key": "2026-10-01T10:12:58Z|3a4718667772",
+   "category": "AI Agents & Tooling",
+   "commits": 8,
+   "created": "2026-09-17T11:56:35Z",
+   "demo": "https://aiandmlconsultants.com/",
+   "description": "Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP, OpenTelemetry)",
+   "docs": "https://github.com/manjunatha552355-rgb/cortextrace/tree/HEAD/docs",
+   "excerpt": "See what AI agents are doing on your computer, and get told when it looks risky. Cortextrace is a local-first desktop app for Windows, macOS and Linux. It discovers AI coding agents and AI tools on your machine and traces every session: commands, file changes, tool and MCP calls, network destinations, approvals. It also runs a real-time detection engine that explains why something is risky. Nothing leaves your machine unless you configure an export. > Cortextrace is a defensive observability tool. It runs visibly (window and tray), needs no elevated privileges, never bypasses OS security controls and never collects file contents. Download the installer for your platform from Releases: Launch it. The first-run guide shows exactly what is monitored and which agents it found, and lets you connect hooks. See docs/INSTALL.md. Requires Node.js 24+. Read docs/ARCHITECTURE.md for the full design, docs/EVENT_SCHEMA.md for the event model and docs/ADAPTERS.md to add an agent. - Installation · Privacy · Threat model - Architecture · Event schema · Detection & risk - Adapters, custom agents & API · Design decisions - Releasing & code signing · Contributing · Security policy The illustrated pro",
+   "feature_source": "readme",
+   "featured": true,
+   "features": [
+    {
+     "detail": "Claude Code, Claude Desktop/Cowork, Cursor, Codex, Gemini CLI, GitHub Copilot (VS Code + CLI), Antigravity, Windsurf, Cline, Roo Code, OpenCode, Aider, goose, Amp, Kiro, Ollama, LM Studio, llama.cpp, ChatGPT Desktop, MCP server processes, Python/Node agent frameworks, unidentified processes calling LLM APIs, and your own custom agents",
+     "title": "Discovers"
+    },
+    {
+     "detail": "process tree snapshots · network connection metadata · workspace file watching · native agent hooks (Claude Code, Cursor, Codex) · OpenTelemetry OTLP/HTTP · a local REST API",
+     "title": "Collects via"
+    },
+    {
+     "detail": "39 tested rules (destructive commands, download-and-execute, reverse shells, credential access, persistence, security-control tampering, exfiltration, prompt injection, tool poisoning, …), your policies, behavioural heuristics (mass changes, secret-access-then-egress, denied-then-executed) and learned activity baselines",
+     "title": "Detects"
+    },
+    {
+     "detail": "per-session and per-agent risk scores (0–100) broken down by 10 dimensions, each factor linked to its evidence",
+     "title": "Explains"
+    }
+   ],
+   "features_auto": [
+    {
+     "detail": "Claude Code, Claude Desktop/Cowork, Cursor, Codex, Gemini CLI, GitHub Copilot (VS Code + CLI), Antigravity, Windsurf, Cline, Roo Code, OpenCode, Aider, goose, Amp, Kiro, Ollama, LM Studio, llama.cpp, ChatGPT Desktop, MCP server processes, Python/Node agent frameworks, unidentified processes calling LLM APIs, and your own custom agents",
+     "title": "Discovers"
+    },
+    {
+     "detail": "process tree snapshots · network connection metadata · workspace file watching · native agent hooks (Claude Code, Cursor, Codex) · OpenTelemetry OTLP/HTTP · a local REST API",
+     "title": "Collects via"
+    },
+    {
+     "detail": "39 tested rules (destructive commands, download-and-execute, reverse shells, credential access, persistence, security-control tampering, exfiltration, prompt injection, tool poisoning, …), your policies, behavioural heuristics (mass changes, secret-access-then-egress, denied-then-executed) and learned activity baselines",
+     "title": "Detects"
+    },
+    {
+     "detail": "per-session and per-agent risk scores (0–100) broken down by 10 dimensions, each factor linked to its evidence",
+     "title": "Explains"
+    },
+    {
+     "detail": "SQLite (WAL, indexed) with retention, integrity checks and JSONL/CSV export",
+     "title": "Stores"
+    }
+   ],
+   "fork": false,
+   "forks": 0,
+   "full_name": "manjunatha552355-rgb/cortextrace",
+   "has_docs": true,
+   "homepage": "https://aiandmlconsultants.com/",
+   "id": "R_kgDOUesWGA",
+   "language": "TypeScript",
+   "languages": {
+    "CSS": 19908,
+    "HTML": 522,
+    "JavaScript": 140276,
+    "PowerShell": 865,
+    "Python": 19756,
+    "TypeScript": 463982
+   },
+   "last_commit": "2026-10-01T10:12:55Z",
+   "license": "Apache-2.0",
+   "manifest_hits": [
+    ".github/workflows",
+    "electron",
+    "react",
+    "react-dom"
+   ],
+   "name": "cortextrace",
+   "open_issues": 0,
+   "open_prs": 3,
+   "override": {},
+   "pushed": "2026-10-01T10:12:58Z",
+   "release": null,
+   "score": 9.454,
+   "stars": 1,
+   "tagline": null,
+   "tech": [
+    "Electron",
+    "GitHub Actions",
+    "Model Context Protocol",
+    "OpenTelemetry",
+    "React"
+   ],
+   "topics": [
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "electron",
+    "local-first",
+    "mcp",
+    "observability",
+    "opentelemetry",
+    "security",
+    "threat-detection",
+    "tracing"
+   ],
+   "url": "https://github.com/manjunatha552355-rgb/cortextrace",
+   "visibility": "PUBLIC",
+   "watchers": 1,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    7,
+    0,
+    1
+   ]
+  },
+  {
+   "architecture": null,
+   "archived": false,
+   "branch": "main",
+   "cache_key": "2026-07-16T10:22:52Z|3a4718667772",
+   "category": "Analytics",
+   "commits": 3,
+   "created": "2025-12-26T15:14:43Z",
+   "demo": null,
+   "description": "Algorithmic NSE trading dashboard — VWAP/EMA/RSI screening across 2000+ tickers, automated daily reports (Streamlit)",
+   "docs": null,
+   "excerpt": "An advanced, single-file algorithmic trading dashboard built with Streamlit. Designed for the Indian (NSE) and Global markets, it provides real-time analysis, high-probability intraday setups, and automated daily reporting. * Dynamic Market Universe: Automatically fetches 1500+ active NSE stocks daily from official sources. * Algorithmic Analysis: * VWAP & EMA Crossovers: Detects trend reversals and continuations. * Volume Velocity: Identifies sector rotation and institutional interest. * Global Sentiment: Tracks major world indices (S&P 500, Nasdaq, FTSE, etc.). * Parallel Processing: Powered by threading to analyze 2000+ tickers in minutes. * Automated Reporting: * Singleton Cache: Generates a unified market report once per day. * Robust Custom Scheduler: Dedicated heartbeat loop ensures 100% reliable email delivery at 09:15 AM and user-defined times. * User Management: Role-based access (Admin/User) with approval workflows. * Premium UI: Dark \"FinTech\" theme with live ticker tape and glassmorphism design. 1. Clone the Repository: 2. Install Dependencies: 3. Run the Application: 1. First Run: The app will automatically create a local SQLite database (dwarka_trade.db). 2. Admin Se",
+   "feature_source": "readme",
+   "featured": true,
+   "features": [
+    {
+     "detail": "Automatically fetches 1500+ active NSE stocks daily from official sources.",
+     "title": "Dynamic Market Universe"
+    },
+    {
+     "detail": "VWAP & EMA Crossovers, Volume Velocity, Global Sentiment",
+     "title": "Algorithmic Analysis"
+    },
+    {
+     "detail": "Powered by threading to analyze 2000+ tickers in minutes.",
+     "title": "Parallel Processing"
+    },
+    {
+     "detail": "Singleton Cache, Robust Custom Scheduler",
+     "title": "Automated Reporting"
+    }
+   ],
+   "features_auto": [
+    {
+     "detail": "Automatically fetches 1500+ active NSE stocks daily from official sources.",
+     "title": "Dynamic Market Universe"
+    },
+    {
+     "detail": "VWAP & EMA Crossovers, Volume Velocity, Global Sentiment",
+     "title": "Algorithmic Analysis"
+    },
+    {
+     "detail": "Powered by threading to analyze 2000+ tickers in minutes.",
+     "title": "Parallel Processing"
+    },
+    {
+     "detail": "Singleton Cache, Robust Custom Scheduler",
+     "title": "Automated Reporting"
+    },
+    {
+     "detail": "Role-based access (Admin/User) with approval workflows.",
+     "title": "User Management"
+    },
+    {
+     "detail": "Dark \"FinTech\" theme with live ticker tape and glassmorphism design.",
+     "title": "Premium UI"
+    }
+   ],
+   "fork": false,
+   "forks": 0,
+   "full_name": "manjunatha552355-rgb/Dwarka-trading",
+   "has_docs": false,
+   "homepage": null,
+   "id": "R_kgDOQvQW7Q",
+   "language": "Python",
+   "languages": {
+    "Python": 97033
+   },
+   "last_commit": "2026-07-16T10:22:49Z",
+   "license": null,
+   "manifest_hits": [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "streamlit",
+    "yfinance"
+   ],
+   "name": "Dwarka-trading",
+   "open_issues": 0,
+   "open_prs": 0,
+   "override": {},
+   "pushed": "2026-07-16T10:22:52Z",
+   "release": null,
+   "score": 6.602,
+   "stars": 0,
+   "tagline": null,
+   "tech": [
+    "Matplotlib",
+    "NumPy",
+    "Pandas",
+    "Streamlit",
+    "yfinance"
+   ],
+   "topics": [
+    "algorithmic-trading",
+    "fintech",
+    "nse",
+    "streamlit",
+    "technical-analysis"
+   ],
+   "url": "https://github.com/manjunatha552355-rgb/Dwarka-trading",
+   "visibility": "PUBLIC",
+   "watchers": 0,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "architecture": null,
+   "archived": false,
+   "branch": "master",
+   "cache_key": "2026-07-16T09:43:23Z|3a4718667772",
+   "category": "AI & Machine Learning",
+   "commits": 17,
+   "created": "2026-07-16T09:43:17Z",
+   "demo": null,
+   "description": "AURA - ambient AI voice assistant for Android: on-device VAD, Opus, Whisper transcription, Gemini 4-pillar summaries, action-item automation. Free-tier infrastructure.",
+   "docs": "https://github.com/manjunatha552355-rgb/AURA-AI-Assistant/tree/HEAD/docs",
+   "excerpt": "An ambient AI meeting assistant for Android: records conversations, trims silence on-device, transcribes speech, generates structured summaries with action items, and hands tasks off to Gmail and Calendar — built to run entirely on free-tier infrastructure. --- - Two recording modes — Meeting (tap to start/stop) and Ambient (continuous listening with a summary that refreshes every 15 minutes) - On-device voice activity detection (Silero VAD via ONNX Runtime) — silence never leaves the phone and is never billed - Opus compression (Concentus + hand-rolled Ogg muxer) — ~24 kbps voice-only audio - Edge proxy on Cloudflare Workers — API keys live server-side, never in the APK - Whisper transcription (Groq) and 4-pillar summaries (Gemini 2.0 Flash with Groq Llama fallback): summary, key points, decisions, action items - Tasks view — every action item across sessions, with check-off - One-tap handoff — draft a Gmail email or create a Calendar event from any action item via system intents (no OAuth needed) - Offline-first — everything is stored in Room; uploads retry via WorkManager when network returns Layering (app): ui/ (Compose + ViewModels) domain/ (pure Kotlin models & interfaces) da",
+   "feature_source": "readme",
+   "featured": true,
+   "features": [
+    {
+     "detail": "Meeting (tap to start/stop) and Ambient (continuous listening with a summary that refreshes every 15 minutes)",
+     "title": "Two recording modes"
+    },
+    {
+     "detail": "(Silero VAD via ONNX Runtime) — silence never leaves the phone and is never billed",
+     "title": "On-device voice activity detection"
+    },
+    {
+     "detail": "(Concentus + hand-rolled Ogg muxer) — ~24 kbps voice-only audio",
+     "title": "Opus compression"
+    },
+    {
+     "detail": "API keys live server-side, never in the APK",
+     "title": "Edge proxy on Cloudflare Workers"
+    }
+   ],
+   "features_auto": [
+    {
+     "detail": "Meeting (tap to start/stop) and Ambient (continuous listening with a summary that refreshes every 15 minutes)",
+     "title": "Two recording modes"
+    },
+    {
+     "detail": "(Silero VAD via ONNX Runtime) — silence never leaves the phone and is never billed",
+     "title": "On-device voice activity detection"
+    },
+    {
+     "detail": "(Concentus + hand-rolled Ogg muxer) — ~24 kbps voice-only audio",
+     "title": "Opus compression"
+    },
+    {
+     "detail": "API keys live server-side, never in the APK",
+     "title": "Edge proxy on Cloudflare Workers"
+    },
+    {
+     "detail": "(Groq) and 4-pillar summaries (Gemini 2.0 Flash with Groq Llama fallback): summary, key points, decisions, action items",
+     "title": "Whisper transcription"
+    },
+    {
+     "detail": "every action item across sessions, with check-off",
+     "title": "Tasks view"
+    },
+    {
+     "detail": "draft a Gmail email or create a Calendar event from any action item via system intents (no OAuth needed)",
+     "title": "One-tap handoff"
+    },
+    {
+     "detail": "everything is stored in Room; uploads retry via WorkManager when network returns",
+     "title": "Offline-first"
+    }
+   ],
+   "fork": false,
+   "forks": 0,
+   "full_name": "manjunatha552355-rgb/AURA-AI-Assistant",
+   "has_docs": true,
+   "homepage": null,
+   "id": "R_kgDOTaQluw",
+   "language": "Kotlin",
+   "languages": {
+    "JavaScript": 14704,
+    "Kotlin": 151007,
+    "Python": 13920
+   },
+   "last_commit": "2026-07-16T09:42:59Z",
+   "license": null,
+   "manifest_hits": [
+    "android",
+    "androidx.compose",
+    "androidx.room",
+    "androidx.work",
+    "com.android.application",
+    "com.google.dagger",
+    "com.microsoft.onnxruntime",
+    "compose-bom",
+    "edge/wrangler.toml",
+    "hilt-android",
+    "onnxruntime",
+    "onnxruntime-android",
+    "room-runtime",
+    "work-runtime-ktx",
+    "wrangler"
+   ],
+   "name": "AURA-AI-Assistant",
+   "open_issues": 0,
+   "open_prs": 0,
+   "override": {},
+   "pushed": "2026-07-16T09:43:23Z",
+   "release": null,
+   "score": 7.255,
+   "stars": 0,
+   "tagline": null,
+   "tech": [
+    "Android",
+    "Cloudflare Workers",
+    "Hilt",
+    "Jetpack Compose",
+    "ONNX Runtime",
+    "Room",
+    "Whisper",
+    "WorkManager"
+   ],
+   "topics": [
+    "android",
+    "cloudflare-workers",
+    "jetpack-compose",
+    "kotlin",
+    "onnx",
+    "voice-assistant",
+    "whisper"
+   ],
+   "url": "https://github.com/manjunatha552355-rgb/AURA-AI-Assistant",
+   "visibility": "PUBLIC",
+   "watchers": 0,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    5,
+    0,
+    10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "architecture": null,
+   "archived": false,
+   "branch": "master",
+   "cache_key": "2026-06-02T15:16:48Z|3a4718667772",
+   "category": "LLM & RAG",
+   "commits": 1,
+   "created": "2026-06-02T15:16:42Z",
+   "demo": null,
+   "description": "India's Sovereign Financial Language Model — 152M params, Clifford algebra + THGA attention + RASOAP optimizer",
+   "docs": null,
+   "excerpt": "TOON-LLM Sovereign Apex v5.0 is India's first sovereign financial language model — a 152-million-parameter architecture purpose-built for Indian financial markets, regulations, and language. It combines novel geometric deep learning primitives (Clifford algebra, hyperbolic geometry, symplectic structure) with Mixture-of-Experts routing and a custom optimizer. > Project Status: Active pre-training on GTX 1650 (Phase-0 POC). Step 15,700 / 50,000 (31%). Target completion: July 2026. --- --- Model specs: d_model=768, n_layers=6, n_heads=12, d_clifford=24, n_experts=8, vocab=32K, max_seq=512 Parameter count: 152,786,352 (152M trainable) --- --- The model is trained on a curated multi-domain financial corpus covering: - Equity Markets — NSE/BSE tick data, OHLCV, order flow - Macro Economics — RBI publications, GDP, inflation, monetary policy - Corporate Filings — Annual reports, balance sheets, P&L statements - Regulatory Docs — SEBI circulars, compliance frameworks - News & Sentiment — Financial news, earnings calls, analyst reports - Derivatives — Options chains, futures, volatility surfaces - Crypto — BTC/ETH/altcoin market microstructure - Fixed Income — Government bonds, corporate d",
+   "feature_source": "readme",
+   "featured": true,
+   "features": [
+    {
+     "detail": "Native multi-vector embeddings encoding price, volume, momentum, and volatility as geometric objects",
+     "title": "Clifford Cl(3,1) Algebra"
+    },
+    {
+     "detail": "Topological-Hyperbolic-Geometric Attention with Poincaré ball geometry for hierarchical financial relationships",
+     "title": "THGA Attention"
+    },
+    {
+     "detail": "Dual-Space Normalization Attention with symplectic structure preservation",
+     "title": "DSNA"
+    },
+    {
+     "detail": "Mixture-of-Experts routing with load-balance regularization per Switch Transformer",
+     "title": "MoE (8 experts)"
+    }
+   ],
+   "features_auto": [
+    {
+     "detail": "Native multi-vector embeddings encoding price, volume, momentum, and volatility as geometric objects",
+     "title": "Clifford Cl(3,1) Algebra"
+    },
+    {
+     "detail": "Topological-Hyperbolic-Geometric Attention with Poincaré ball geometry for hierarchical financial relationships",
+     "title": "THGA Attention"
+    },
+    {
+     "detail": "Dual-Space Normalization Attention with symplectic structure preservation",
+     "title": "DSNA"
+    },
+    {
+     "detail": "Mixture-of-Experts routing with load-balance regularization per Switch Transformer",
+     "title": "MoE (8 experts)"
+    },
+    {
+     "detail": "Regime-Adaptive Second-Order Adaptive Preconditioner — combines SOAP + Adam fallback with cusum regime detection",
+     "title": "RASOAP Optimizer"
+    },
+    {
+     "detail": "AEF dedup Spectral filter TDA persistence Hurst annotation Tokenization Sharding Sinkhorn rebalancing Temporal masking Validation",
+     "title": "9-Stage ETL Pipeline"
+    },
+    {
+     "detail": "Baker-Campbell-Hausdorff safe serialization for hyperbolic parameters",
+     "title": "BCH Checkpoint Format"
+    }
+   ],
+   "fork": false,
+   "forks": 0,
+   "full_name": "manjunatha552355-rgb/toon-llm",
+   "has_docs": false,
+   "homepage": null,
+   "id": "R_kgDOSvFLLQ",
+   "language": "Python",
+   "languages": {
+    "CSS": 15973,
+    "HTML": 7991,
+    "JavaScript": 9335,
+    "Python": 314786
+   },
+   "last_commit": "2026-06-02T15:10:29Z",
+   "license": "Custom",
+   "manifest_hits": [
+    "docker-compose.yml",
+    "numpy",
+    "pandas",
+    "pydantic",
+    "scipy",
+    "torch"
+   ],
+   "name": "toon-llm",
+   "open_issues": 0,
+   "open_prs": 0,
+   "override": {
+    "featured": true
+   },
+   "pushed": "2026-06-02T15:16:48Z",
+   "release": null,
+   "score": 5.801,
+   "stars": 0,
+   "tagline": null,
+   "tech": [
+    "Docker",
+    "NumPy",
+    "Pandas",
+    "PyTorch",
+    "Pydantic",
+    "SciPy"
+   ],
+   "topics": [
+    "deep-learning",
+    "fintech",
+    "llm",
+    "mixture-of-experts",
+    "nlp",
+    "pytorch"
+   ],
+   "url": "https://github.com/manjunatha552355-rgb/toon-llm",
+   "visibility": "PUBLIC",
+   "watchers": 0,
+   "weekly": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "architecture": null,
+   "archived": false,
+   "branch": "main",
+   "cache_key": "2026-04-15T18:39:17Z|3a4718667772",
+   "category": "Generative AI",
+   "commits": 2,
+   "created": "2026-04-15T18:38:06Z",
+   "demo": null,
+   "description": "MailCraft AI — Production-ready Email Generation Assistant powered by Google Gemini API with advanced prompt engineering, custom LLM-based evaluation metrics, and professional web UI",
+   "docs": null,
+   "excerpt": "A production-ready Email Generation Assistant powered by Google Gemini API with advanced prompt engineering, custom LLM-based evaluation metrics, model comparison analysis, and a professional web UI. Built as an AI Engineering assessment demonstrating prompt engineering, evaluation framework design, and full-stack delivery. --- --- Edit .env and replace your-google-api-key-here with your actual Google AI API key from Google AI Studio. Open http://localhost:8000 in your browser. --- The web UI provides 4 pages: - Compose — Generate emails with tone selection, scenario loading, and one-click copy - Compare — Side-by-side generation in two different tones simultaneously - Library — Browse all saved emails filtered by tone, with detail modals - Analytics — Dashboard with total count, latency, tokens, tone distribution chart Keyboard shortcuts: 1-4 navigate pages, D toggles dark mode, Ctrl+Enter generates, ? shows all shortcuts. --- --- The advanced strategy combines three techniques: 1. Role-Playing — The LLM assumes the persona of a senior executive communications specialist with 15+ years of experience 2. Few-Shot Examples — 4 curated examples (one per tone) embedded in the system pr",
+   "feature_source": "readme",
+   "featured": false,
+   "features": [
+    {
+     "detail": "Generates professional, human-quality emails from intent, key facts, and tone",
+     "title": "Email Generation"
+    },
+    {
+     "detail": "Advanced strategy: Role-Playing + Few-Shot (4 examples) + Chain-of-Thought (6-step)",
+     "title": "Prompt Engineering"
+    },
+    {
+     "detail": "Fact Recall, Tone Accuracy, Conciseness & Clarity — each a hybrid of automated + LLM-as-Judge",
+     "title": "3 Custom Metrics"
+    },
+    {
+     "detail": "Side-by-side evaluation with per-metric statistical analysis and winner detection",
+     "title": "Model Comparison"
+    }
+   ],
+   "features_auto": [
+    {
+     "detail": "Generates professional, human-quality emails from intent, key facts, and tone",
+     "title": "Email Generation"
+    },
+    {
+     "detail": "Advanced strategy: Role-Playing + Few-Shot (4 examples) + Chain-of-Thought (6-step)",
+     "title": "Prompt Engineering"
+    },
+    {
+     "detail": "Fact Recall, Tone Accuracy, Conciseness & Clarity — each a hybrid of automated + LLM-as-Judge",
+     "title": "3 Custom Metrics"
+    },
+    {
+     "detail": "Side-by-side evaluation with per-metric statistical analysis and winner detection",
+     "title": "Model Comparison"
+    },
+    {
+     "detail": "Formal, Casual, Urgent, Empathetic — deeply calibrated with word-count targets and style rules",
+     "title": "4 Tones"
+    },
+    {
+     "detail": "Prompt injection defense (14 regex patterns), input sanitization, HTML stripping",
+     "title": "Security"
+    },
+    {
+     "detail": "Async-first, semaphore rate limiting, retry with exponential backoff",
+     "title": "Performance"
+    },
+    {
+     "detail": "4-page SPA: Compose, Compare, Library, Analytics — dark mode, keyboard shortcuts, animations",
+     "title": "Web UI"
+    },
+    {
+     "detail": "Generated emails auto-saved to generated_emails// with .txt and .json sidecar",
+     "title": "File Storage"
+    }
+   ],
+   "fork": false,
+   "forks": 0,
+   "full_name": "manjunatha552355-rgb/email-generation-assistant",
+   "has_docs": false,
+   "homepage": null,
+   "id": "R_kgDOSDpXTA",
+   "language": "Python",
+   "languages": {
+    "HTML": 72824,
+    "Python": 162274
+   },
+   "last_commit": "2026-04-15T18:39:02Z",
+   "license": null,
+   "manifest_hits": [
+    "google-genai",
+    "pydantic"
+   ],
+   "name": "email-generation-assistant",
+   "open_issues": 0,
+   "open_prs": 0,
+   "override": {},
+   "pushed": "2026-04-15T18:39:17Z",
+   "release": null,
+   "score": 5.477,
+   "stars": 0,
+   "tagline": null,
+   "tech": [
+    "FastAPI",
+    "Google Gemini",
+    "Pydantic"
+   ],
+   "topics": [
+    "fastapi",
+    "gemini",
+    "generative-ai",
+    "llm-evaluation",
+    "prompt-engineering"
+   ],
+   "url": "https://github.com/manjunatha552355-rgb/email-generation-assistant",
+   "visibility": "PUBLIC",
+   "watchers": 0,
+   "weekly": null
+  }
+ ],
+ "schema": 1,
+ "tech": [
+  {
+   "group": "AI & ML",
+   "items": [
+    {
+     "declared": false,
+     "name": "NumPy",
+     "repos": [
+      "Dwarka-trading",
+      "toon-llm"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "ONNX Runtime",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "PyTorch",
+     "repos": [
+      "toon-llm"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "SciPy",
+     "repos": [
+      "toon-llm"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Whisper",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "LLM & GenAI",
+   "items": [
+    {
+     "declared": false,
+     "name": "Google Gemini",
+     "repos": [
+      "email-generation-assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Model Context Protocol",
+     "repos": [
+      "cortextrace"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Data & Analytics",
+   "items": [
+    {
+     "declared": false,
+     "name": "Pandas",
+     "repos": [
+      "Dwarka-trading",
+      "toon-llm"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Matplotlib",
+     "repos": [
+      "Dwarka-trading"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "yfinance",
+     "repos": [
+      "Dwarka-trading"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Backend & APIs",
+   "items": [
+    {
+     "declared": false,
+     "name": "Pydantic",
+     "repos": [
+      "toon-llm",
+      "email-generation-assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "FastAPI",
+     "repos": [
+      "email-generation-assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "OpenTelemetry",
+     "repos": [
+      "cortextrace"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Streamlit",
+     "repos": [
+      "Dwarka-trading"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Cloud & DevOps",
+   "items": [
+    {
+     "declared": false,
+     "name": "Cloudflare Workers",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Docker",
+     "repos": [
+      "toon-llm"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "GitHub Actions",
+     "repos": [
+      "cortextrace"
+     ]
+    }
+   ]
+  },
+  {
+   "group": "Apps & Platforms",
+   "items": [
+    {
+     "declared": false,
+     "name": "Android",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Electron",
+     "repos": [
+      "cortextrace"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Hilt",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Jetpack Compose",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "React",
+     "repos": [
+      "cortextrace"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "Room",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    },
+    {
+     "declared": false,
+     "name": "WorkManager",
+     "repos": [
+      "AURA-AI-Assistant"
+     ]
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "commits": 31,
+  "forks": 0,
+  "languages": 7,
+  "licensed": 1,
+  "public_repos": 5,
+  "stars": 1
+ },
+ "user": {
+  "created": "2025-11-24T04:19:28Z",
+  "followers": 0,
+  "name": "Manjunatha M"
+ }
+}
