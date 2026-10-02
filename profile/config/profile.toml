@@ -21,6 +21,11 @@ tooling for AI agents. I care about measurable quality, cost-aware architecture 
 systems that remain maintainable after launch.
 """
 
+# Interactive portfolio (GitHub Pages, built from the same data by the workflow).
+# README links to it; the README stays complete on its own if the site is down.
+[site]
+url = "https://manjunatha552355-rgb.github.io/manjunatha552355-rgb/"
+
 [[links]]
 label = "LinkedIn"
 url = "https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"

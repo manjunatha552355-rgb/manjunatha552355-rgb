@@ -1,6 +1,6 @@
 {
  "activity": {
-  "active_days": 11,
+  "active_days": 10,
   "best_day": {
    "count": 16,
    "date": "2026-09-15"
@@ -786,11 +786,11 @@
    ],
    [
     "2026-04-15",
-    1
+    0
    ],
    [
     "2026-04-16",
-    2
+    3
    ],
    [
     "2026-04-17",
@@ -1657,6 +1657,19 @@
    ]
   }
  ],
+ "identity": {
+  "headline": "Building AI systems end to end: data, models, evaluation and production delivery.",
+  "location": "Bengaluru, India",
+  "name": "Manjunatha M.",
+  "overview": "I design and build AI systems end to end, from data pipelines and model architecture through evaluation to production delivery. My public work includes a domain-specific financial language model trained from scratch, an on-device speech pipeline for Android, an LLM evaluation framework for generative applications, and local-first observability tooling for AI agents. I care about measurable quality, cost-aware architecture and systems that remain maintainable after launch.",
+  "roles": [
+   "AI/ML Engineer",
+   "Data Scientist",
+   "Data Engineer",
+   "Business Analyst",
+   "Solution Architect"
+  ]
+ },
  "languages": [
   {
    "bytes": 607769,
@@ -1690,6 +1703,20 @@
   }
  ],
  "latest_activity": "2026-10-01T10:12:58Z",
+ "links": [
+  {
+   "label": "LinkedIn",
+   "url": "https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"
+  },
+  {
+   "label": "Website",
+   "url": "https://aiandmlconsultants.com/"
+  },
+  {
+   "label": "Email",
+   "url": "mailto:manjunatha552355@gmail.com"
+  }
+ ],
  "login": "manjunatha552355-rgb",
  "repos": [
   {
@@ -1700,7 +1727,7 @@
    "category": "AI Agents & Tooling",
    "commits": 8,
    "created": "2026-09-17T11:56:35Z",
-   "demo": "https://aiandmlconsultants.com/",
+   "demo": null,
    "description": "Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP, OpenTelemetry)",
    "docs": "https://github.com/manjunatha552355-rgb/cortextrace/tree/HEAD/docs",
    "excerpt": "See what AI agents are doing on your computer, and get told when it looks risky. Cortextrace is a local-first desktop app for Windows, macOS and Linux. It discovers AI coding agents and AI tools on your machine and traces every session: commands, file changes, tool and MCP calls, network destinations, approvals. It also runs a real-time detection engine that explains why something is risky. Nothing leaves your machine unless you configure an export. > Cortextrace is a defensive observability tool. It runs visibly (window and tray), needs no elevated privileges, never bypasses OS security controls and never collects file contents. Download the installer for your platform from Releases: Launch it. The first-run guide shows exactly what is monitored and which agents it found, and lets you connect hooks. See docs/INSTALL.md. Requires Node.js 24+. Read docs/ARCHITECTURE.md for the full design, docs/EVENT_SCHEMA.md for the event model and docs/ADAPTERS.md to add an agent. - Installation · Privacy · Threat model - Architecture · Event schema · Detection & risk - Adapters, custom agents & API · Design decisions - Releasing & code signing · Contributing · Security policy The illustrated pro",
@@ -2481,7 +2508,8 @@
    "weekly": null
   }
  ],
- "schema": 1,
+ "schema": 2,
+ "site": "https://manjunatha552355-rgb.github.io/manjunatha552355-rgb/",
  "tech": [
   {
    "group": "AI & ML",
@@ -2686,12 +2714,14 @@
   }
  ],
  "totals": {
+  "categories": 5,
   "commits": 31,
   "forks": 0,
   "languages": 7,
   "licensed": 1,
   "public_repos": 5,
-  "stars": 1
+  "stars": 1,
+  "technologies": 24
  },
  "user": {
   "created": "2025-11-24T04:19:28Z",

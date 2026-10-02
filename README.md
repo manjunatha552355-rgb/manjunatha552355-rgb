@@ -4,9 +4,9 @@
   Data: GitHub API, refreshed by .github/workflows/refresh-profile.yml
 -->
 
-<a href="https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"><picture><source media="(max-width: 600px)" srcset="profile/generated/hero-m.svg"><img src="profile/generated/hero.svg" width="100%" alt="Manjunatha M. — AI/ML Engineer, Data Scientist, Data Engineer, Business Analyst, Solution Architect. Building AI systems end to end: data, models, evaluation and production delivery."></picture></a>
+<a href="https://manjunatha552355-rgb.github.io/manjunatha552355-rgb/"><picture><source media="(max-width: 600px)" srcset="profile/generated/hero-m.svg"><img src="profile/generated/hero.svg" width="100%" alt="Manjunatha M. — AI/ML Engineer, Data Scientist, Data Engineer, Business Analyst, Solution Architect. Building AI systems end to end: data, models, evaluation and production delivery."></picture></a>
 
-<p align="center"><a href="https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/"><b>Website</b></a> &nbsp;·&nbsp; <a href="mailto:manjunatha552355@gmail.com"><b>Email</b></a></p>
+<p align="center"><a href="https://manjunatha552355-rgb.github.io/manjunatha552355-rgb/"><b>Interactive Portfolio ↗</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/"><b>Website</b></a> &nbsp;·&nbsp; <a href="mailto:manjunatha552355@gmail.com"><b>Email</b></a></p>
 
 ## Professional Overview
 
@@ -58,7 +58,7 @@ I design and build AI systems end to end, from data pipelines and model architec
 <p align="center"><sub><a href="https://github.com/manjunatha552355-rgb/toon-llm"><b>Repository</b></a></sub></p>
 
 <a href="https://github.com/manjunatha552355-rgb/cortextrace"><picture><source media="(max-width: 600px)" srcset="profile/generated/card-cortextrace-m.svg"><img src="profile/generated/card-cortextrace.svg" width="100%" alt="cortextrace: Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP, OpenTelemetry) Discovers. Collects via. Detects. Explains. 1 stars, 8 commits."></picture></a>
-<p align="center"><sub><a href="https://github.com/manjunatha552355-rgb/cortextrace"><b>Repository</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/">Live demo</a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/cortextrace/tree/HEAD/docs">Documentation</a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/cortextrace/blob/HEAD/docs/ARCHITECTURE.md">Architecture</a></sub></p>
+<p align="center"><sub><a href="https://github.com/manjunatha552355-rgb/cortextrace"><b>Repository</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/cortextrace/tree/HEAD/docs">Documentation</a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/cortextrace/blob/HEAD/docs/ARCHITECTURE.md">Architecture</a></sub></p>
 
 <a href="https://github.com/manjunatha552355-rgb/AURA-AI-Assistant"><picture><source media="(max-width: 600px)" srcset="profile/generated/card-aura-ai-assistant-m.svg"><img src="profile/generated/card-aura-ai-assistant.svg" width="100%" alt="AURA-AI-Assistant: AURA - ambient AI voice assistant for Android: on-device VAD, Opus, Whisper transcription, Gemini 4-pillar summaries, action-item automation. Free-tier infrastructure. Two recording modes. On-device voice activity detection. Opus compression. Edge proxy on Cloudflare Workers. 0 stars, 17 commits."></picture></a>
 <p align="center"><sub><a href="https://github.com/manjunatha552355-rgb/AURA-AI-Assistant"><b>Repository</b></a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/AURA-AI-Assistant/tree/HEAD/docs">Documentation</a></sub></p>
@@ -69,7 +69,7 @@ I design and build AI systems end to end, from data pipelines and model architec
 
 ## Open Source
 
-<a href="profile/CATALOG.md"><picture><source media="(max-width: 600px)" srcset="profile/generated/opensource-m.svg"><img src="profile/generated/opensource.svg" width="100%" alt="Open Source: Public repositories 5, Open-source licensed 1/5, Stars 1, Forks 0, External repos contributed to 1. Contributed to slshoerackmarketing-png/sl-shoe-rack"></picture></a>
+<a href="profile/CATALOG.md"><picture><source media="(max-width: 600px)" srcset="profile/generated/opensource-m.svg"><img src="profile/generated/opensource.svg" width="100%" alt="Open Source: Open-source licensed 1/5, Forks 0, Pull requests · 12 mo 2, External repos contributed to 1. Contributed to slshoerackmarketing-png/sl-shoe-rack"></picture></a>
 
 ## Repository Explorer
 
@@ -118,18 +118,18 @@ I design and build AI systems end to end, from data pipelines and model architec
 
 ## GitHub Activity
 
-<picture><source media="(max-width: 600px)" srcset="profile/generated/activity-m.svg"><img src="profile/generated/activity.svg" width="100%" alt="Contribution calendar, Oct 5, 2025 – Oct 2, 2026: 48 contributions in 12 months on 11 active days; longest streak 2 days."></picture>
-
 <picture><source media="(max-width: 600px)" srcset="profile/generated/timeline-m.svg"><img src="profile/generated/timeline.svg" width="100%" alt="Recent activity: Oct 1, 2026 cortextrace — Latest commit on main · TypeScript; Jul 16, 2026 Dwarka-trading — Latest commit on main · Python; Jul 16, 2026 AURA-AI-Assistant — Latest commit on master · Kotlin; Jun 2, 2026 toon-llm — Latest commit on master · Python; Apr 15, 2026 email-generation-assistant — Latest commit on main · Python"></picture>
+
+<p align="center"><sub>The contribution calendar below is GitHub's own · <a href="https://manjunatha552355-rgb.github.io/manjunatha552355-rgb/#activity">Interactive activity explorer ↗</a></sub></p>
 
 ## Engineering Statistics
 
-<picture><source media="(max-width: 600px)" srcset="profile/generated/stats-m.svg"><img src="profile/generated/stats.svg" width="100%" alt="Engineering Statistics: Public repositories 5, Commits (default branches) 31, Contributions · 12 mo 48, Pull requests · 12 mo 2, Stars earned 1, Languages 7"></picture>
+<picture><source media="(max-width: 600px)" srcset="profile/generated/stats-m.svg"><img src="profile/generated/stats.svg" width="100%" alt="Engineering Statistics: Public repositories 5, Commits (default branches) 31, Languages 7, Technologies with evidence 24, Practice areas 5, Stars earned 1"></picture>
 
 <picture><source media="(max-width: 600px)" srcset="profile/generated/distribution-m.svg"><img src="profile/generated/distribution.svg" width="100%" alt="Languages: Python 40.4%, TypeScript 30.8%, JavaScript 10.9%, Kotlin 10.0%, HTML 5.4%, CSS 2.4%. Projects by category: LLM &amp; RAG 1, Generative AI 1, AI Agents &amp; Tooling 1, AI &amp; Machine Learning 1, Analytics 1."></picture>
 
 ## Connect
 
-<p align="center"><a href="https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/"><b>Website</b></a> &nbsp;·&nbsp; <a href="mailto:manjunatha552355@gmail.com"><b>Email</b></a></p>
+<p align="center"><a href="https://manjunatha552355-rgb.github.io/manjunatha552355-rgb/"><b>Interactive Portfolio ↗</b></a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/manjunatha-m-ai-ml-genai-llm"><b>LinkedIn</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/"><b>Website</b></a> &nbsp;·&nbsp; <a href="mailto:manjunatha552355@gmail.com"><b>Email</b></a></p>
 
 <p align="center"><sub>Built from live GitHub data · latest activity Oct 1, 2026 · refreshed daily by GitHub Actions · <a href="profile/ARCHITECTURE.md">How this profile works</a></sub></p>

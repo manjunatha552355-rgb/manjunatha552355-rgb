@@ -28,7 +28,31 @@ GitHub GraphQL/REST API ──► fetch.py ──► analyze.py ──► svg.py
 | `profile/generated/` | Generated SVGs. `*-m.svg` files are the phone variants. |
 | `.github/workflows/refresh-profile.yml` | Daily, manual and push-triggered refresh. |
 
+| `site/` | Interactive portfolio (GitHub Pages): `index.html`, `styles.css`, `app.js`. Renders entirely from `profile.json`. |
+
 There are no third-party dependencies and no external image services, so nothing breaks when a stats service goes down.
+
+## Interactive portfolio
+
+GitHub READMEs cannot run JavaScript, so interactions live on a companion site. The workflow's `deploy-site` job publishes `site/` together with the freshly generated `profile.json` to GitHub Pages after every refresh. The README and the site never disagree, and the README stays complete if the site is unavailable.
+
+The site adds what a README can't:
+- **Repository graph:** a hover/tap repository graph with practice-area hubs.
+- **Count-up metrics.**
+- **Clickable focus areas and technologies** that filter the explorer.
+- **Featured cards:** cursor spotlight and expandable details.
+- **Explorer:** search, filter and sort with animated reordering.
+- **Activity:** a contribution heatmap with per-day tooltips, an animated timeline and distribution bars.
+
+Design rules follow the README's visual system:
+- **Translucent materials** for the navigation and tooltips.
+- **Soft section edges** instead of divider lines.
+- **Hover effects** only on devices that can hover.
+- **Touch:** a first tap previews and a second tap opens.
+- **Accessibility:** full keyboard support (`/` focuses search), `prefers-reduced-motion`, `prefers-reduced-transparency` and `prefers-contrast` support.
+- **Safe rendering:** repository text is always inserted as text, never as HTML.
+
+To preview locally: `cp profile/data/profile.json site/data/ && python -m http.server -d site`.
 
 ## How the data is derived
 

@@ -17,6 +17,7 @@ on:
       - "profile/config/**"
       - "profile/scripts/**"
       - "profile/templates/**"
+      - "site/**"
       - ".github/workflows/refresh-profile.yml"
 
 permissions:
@@ -59,3 +60,34 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(profile): refresh from GitHub data"
           git push
+
+  # Interactive portfolio on GitHub Pages, rebuilt from the same data on every run.
+  deploy-site:
+    needs: refresh
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main                  # include the data commit made by the refresh job
+
+      - name: Assemble site
+        run: |
+          mkdir -p site/data
+          cp profile/data/profile.json site/data/profile.json
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - id: deploy
+        uses: actions/deploy-pages@v5

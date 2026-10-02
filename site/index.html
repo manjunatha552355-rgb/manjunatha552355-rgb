@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manjunatha M. — AI/ML Engineering Portfolio</title>
+  <meta name="description" content="AI/ML, data and solution engineering portfolio of Manjunatha M. — live from GitHub: projects, technology, activity.">
+  <meta property="og:title" content="Manjunatha M. — AI/ML Engineering Portfolio">
+  <meta property="og:description" content="Projects, technology ecosystem and engineering activity, synced daily from GitHub.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#FAFCFE">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%231D6FB2'/%3E%3Ccircle cx='11' cy='12' r='3' fill='%23A9D4F2'/%3E%3Ccircle cx='21' cy='11' r='3' fill='white'/%3E%3Ccircle cx='16' cy='21' r='3' fill='%23A9D4F2'/%3E%3Cpath d='M11 12L21 11L16 21Z' fill='none' stroke='white' stroke-width='1.2' opacity='.7'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+<body>
+  <nav class="nav" aria-label="Primary">
+    <div class="wrap">
+      <a class="brand" href="#top" data-bind="brand">Portfolio<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#technology">Technology</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#explorer">Explorer</a></li>
+        <li><a href="#activity">Activity</a></li>
+        <li><a href="#connect">Connect</a></li>
+        <li class="nav-indicator" aria-hidden="true"></li>
+      </ul>
+      <a class="btn small nav-cta" data-bind="github-link" href="https://github.com/">GitHub ↗</a>
+    </div>
+  </nav>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-name">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="status reveal"><span class="live-dot" aria-hidden="true"></span><span data-bind="status">Loading live data from GitHub…</span></div>
+          <h1 id="hero-name" class="reveal" style="--d:.06s" data-bind="name"></h1>
+          <div class="role-line reveal" style="--d:.12s"><span class="role-rotator" aria-live="polite" data-bind="roles"></span></div>
+          <p class="lede reveal" style="--d:.18s" data-bind="headline"></p>
+          <div class="cta reveal" style="--d:.24s">
+            <a class="btn primary" href="#projects">Explore projects</a>
+            <a class="btn" data-bind="github-link" href="https://github.com/">GitHub profile</a>
+          </div>
+          <div class="meta reveal" style="--d:.3s" data-bind="meta"></div>
+        </div>
+        <div class="graph-card reveal" style="--d:.2s">
+          <svg class="graph" data-bind="graph" viewBox="-30 -10 500 460" role="img" aria-label="Repository graph"></svg>
+          <div class="caption"><span>Repositories around practice areas · linked by shared topics &amp; stack</span><span>Hover or tap a node</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Key metrics">
+      <div class="wrap"><div class="metric-grid reveal" data-bind="metrics"></div></div>
+    </section>
+
+    <section id="overview" aria-labelledby="overview-title">
+      <div class="wrap overview">
+        <div class="reveal">
+          <div class="eyebrow">Professional Overview</div>
+          <h2 id="overview-title" class="sr-only">Professional Overview</h2>
+          <p class="statement" data-bind="overview"></p>
+        </div>
+        <div>
+          <div class="eyebrow reveal" style="margin-bottom:14px">Engineering Focus · select to filter projects</div>
+          <div class="focus-grid" data-bind="focus"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="technology" class="alt" aria-labelledby="tech-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Technology Ecosystem</div><h2 id="tech-title">Evidence-backed stack</h2>
+            <p>Every technology here is detected in a public repository — dependency manifests, topics or language data. Select one to see where it is used.</p></div>
+        </div>
+        <div class="card tech-panel reveal" data-bind="tech"></div>
+        <p class="tech-note" data-bind="tech-note"></p>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Featured Projects</div><h2 id="projects-title">Selected work</h2>
+            <p>Chosen automatically by recency, completeness and depth of work. Capabilities are taken from each project's own README.</p></div>
+        </div>
+        <div class="featured-grid" data-bind="featured"></div>
+      </div>
+    </section>
+
+    <section id="explorer" class="alt" aria-labelledby="explorer-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Repository Explorer</div><h2 id="explorer-title">All public repositories</h2>
+            <p>Search, filter by practice area or technology, and sort. New repositories appear here automatically.</p></div>
+        </div>
+        <div class="toolbar reveal">
+          <label class="search"><span class="sr-only">Search repositories</span>
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="7" cy="7" r="5"/><path d="M11 11l3.5 3.5"/></svg>
+            <input type="search" data-bind="search" placeholder="Search name, description, topic or technology" autocomplete="off">
+          </label>
+          <label><span class="sr-only">Sort</span>
+            <select data-bind="sort">
+              <option value="updated">Recently updated</option>
+              <option value="commits">Most commits</option>
+              <option value="stars">Most stars</option>
+              <option value="name">Name</option>
+            </select>
+          </label>
+        </div>
+        <div class="filter-row reveal" data-bind="categories"></div>
+        <div class="repo-grid" data-bind="repos"></div>
+      </div>
+    </section>
+
+    <section id="activity" aria-labelledby="activity-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">GitHub Activity</div><h2 id="activity-title">Engineering activity</h2>
+            <p>Contribution calendar for the last 12 months. Hover or focus a day for details.</p></div>
+        </div>
+        <div class="card activity-card reveal" data-bind="activity"></div>
+        <div class="two-col">
+          <div class="card panel reveal"><h3 class="eyebrow">Recent activity</h3><ol class="timeline" data-bind="timeline"></ol></div>
+          <div class="card panel reveal" style="--d:.08s"><h3 class="eyebrow">Contribution mix · 12 months</h3><div class="bars" data-bind="mix"></div></div>
+        </div>
+        <div class="two-col">
+          <div class="card panel reveal"><h3 class="eyebrow">Languages · share of code</h3><div class="bars" data-bind="languages"></div></div>
+          <div class="card panel reveal" style="--d:.08s"><h3 class="eyebrow">Projects by practice area</h3><div class="bars" data-bind="cats"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="open-source" class="alt" aria-labelledby="os-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div><div class="eyebrow">Open Source</div><h2 id="os-title">Public work</h2></div>
+        </div>
+        <div class="os-grid" data-bind="os"></div>
+        <div class="os-extra reveal" data-bind="os-extra"></div>
+      </div>
+    </section>
+
+    <section id="connect" aria-labelledby="connect-title">
+      <div class="wrap">
+        <div class="connect-card reveal">
+          <div class="eyebrow">Connect</div>
+          <h2 id="connect-title">Let's talk about your next AI system</h2>
+          <p>Open to AI/ML, data and solution architecture work — from model development to production delivery.</p>
+          <div class="cta" data-bind="links"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span data-bind="footer">Synced from the GitHub API by GitHub Actions.</span>
+      <a data-bind="source-link" href="#">Source &amp; methodology ↗</a>
+    </div>
+  </footer>
+
+  <div class="tip" role="tooltip" id="tip"></div>
+  <noscript><p style="text-align:center;padding:24px">This portfolio needs JavaScript for its interactive views. The full profile is also on <a href="https://github.com/manjunatha552355-rgb">GitHub</a>.</p></noscript>
+  <script src="app.js" defer></script>
+</body>
+</html>

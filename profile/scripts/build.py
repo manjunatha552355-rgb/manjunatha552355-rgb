@@ -80,7 +80,7 @@ def collect(cfg, previous, full):
             "license": None if not r["licenseInfo"] else
             "Custom" if r["licenseInfo"]["spdxId"] == "NOASSERTION" else r["licenseInfo"]["spdxId"],
             "release": {"tag": rel["tagName"], "date": rel["publishedAt"], "url": rel["url"]} if rel else None,
-            "homepage": r["homepageUrl"] or None, "demo": o.get("demo") or r["homepageUrl"] or None,
+            "homepage": r["homepageUrl"] or None, "demo": o.get("demo"),
             "docs": o.get("docs") or (f"{r['url']}/tree/HEAD/docs" if cached["has_docs"] else None),
             "architecture": o.get("architecture"),
             "created": r["createdAt"], "pushed": r["pushedAt"],
@@ -123,9 +123,14 @@ def model(cfg, user, repos, featured):
             events.append({"date": p["release"]["date"], "kind": "release", "title": p["name"],
                            "detail": f"Released {p['release']['tag']}"})
     events.sort(key=lambda e: e["date"], reverse=True)
+    ident = cfg["identity"]
     return {
-        "schema": 1,
+        "schema": 2,
         "login": user["login"],
+        "identity": {k: ident[k] for k in ("name", "roles", "headline", "location")} |
+                    {"overview": " ".join(ident["overview"].split())},
+        "links": cfg.get("links", []),
+        "site": cfg.get("site", {}).get("url"),
         "user": {"name": user["name"], "created": user["createdAt"], "followers": user["followers"]["totalCount"]},
         "repos": repos,
         "featured": featured,
@@ -143,6 +148,8 @@ def model(cfg, user, repos, featured):
             "commits": sum(p["commits"] for p in public),
             "licensed": sum(1 for p in public if p["license"] not in (None, "Custom")),
             "languages": len({l for p in public for l in p["languages"]}),
+            "technologies": len({t for p in public for t in p["tech"]}),
+            "categories": len({p["category"] for p in public}),
         },
     }
 
@@ -193,17 +200,17 @@ def render(m, cfg):
     put("hero.svg", svg.hero, ident, m["repos"], m["latest_activity"])
     put("focus.svg", svg.focus, m["focus"])
     put("stack.svg", svg.stack, m["tech"], m["languages"])
-    put("activity.svg", svg.activity, m["activity"])
     put("timeline.svg", svg.timeline, m["events"])
     put("distribution.svg", svg.distribution, m["languages"], m["categories"], m["totals"]["public_repos"])
     t, a = m["totals"], m["activity"]
+    # Contribution totals are deliberately absent: GitHub renders its own calendar under the README.
     put("stats.svg", svg.strip, "ENGINEERING STATISTICS", [
         (str(t["public_repos"]), "Public repositories"), (svg.fmt_num(t["commits"]), "Commits (default branches)"),
-        (svg.fmt_num(a["total"]), "Contributions · 12 mo"), (str(a["pull_requests"]), "Pull requests · 12 mo"),
-        (str(t["stars"]), "Stars earned"), (str(t["languages"]), "Languages")])
+        (str(t["languages"]), "Languages"), (str(t["technologies"]), "Technologies with evidence"),
+        (str(t["categories"]), "Practice areas"), (str(t["stars"]), "Stars earned")])
     put("opensource.svg", svg.strip, "OPEN SOURCE", [
-        (str(t["public_repos"]), "Public repositories"), (f"{t['licensed']}/{t['public_repos']}", "Open-source licensed"),
-        (str(t["stars"]), "Stars"), (str(t["forks"]), "Forks"), (str(len(a["external_repos"])), "External repos contributed to")],
+        (f"{t['licensed']}/{t['public_repos']}", "Open-source licensed"), (str(t["forks"]), "Forks"),
+        (str(a["pull_requests"]), "Pull requests · 12 mo"), (str(len(a["external_repos"])), "External repos contributed to")],
         note="Licensed = repository declares an SPDX license. External = commits or pull requests to repositories "
              "owned by others, last 12 months.",
         chips_label="Contributed to", chip_items=a["external_repos"])
@@ -214,8 +221,8 @@ def render(m, cfg):
         f = f"card-{slug(name)}.svg"
         put(f, svg.card, p)
         acts = [f'<a href="{p["url"]}"><b>Repository</b></a>']
-        acts += [f'<a href="{u}">{l}</a>' for l, u in (("Live demo", p["demo"]), ("Documentation", p["docs"]),
-                                                    ("Architecture", p["architecture"])) if u]
+        acts += [f'<a href="{u}">{l}</a>' for l, u in (("Live demo", p["demo"]), ("Website", p["homepage"]),
+                                                    ("Documentation", p["docs"]), ("Architecture", p["architecture"])) if u]
         if p["release"]:
             acts.append(f'<a href="{p["release"]["url"]}">Release {p["release"]["tag"]}</a>')
         featured_md.append(img(files, f, p["url"]) +
@@ -243,7 +250,10 @@ def render(m, cfg):
     evidence.append("\n</details>")
 
     links = " &nbsp;·&nbsp; ".join(f'<a href="{l["url"]}"><b>{l["label"]}</b></a>' for l in cfg.get("links", []))
-    website = next((l["url"] for l in cfg.get("links", []) if l["url"].startswith("http")), m["repos"][0]["url"] if m["repos"] else "#")
+    site = cfg.get("site", {}).get("url")
+    website = site or next((l["url"] for l in cfg.get("links", []) if l["url"].startswith("http")), "#")
+    if site:
+        links = f'<a href="{site}"><b>Interactive Portfolio ↗</b></a> &nbsp;·&nbsp; ' + links
     latest = svg.fmt_date(m["latest_activity"]) if m["latest_activity"] else "—"
     slots = {
         "hero": img(files, "hero.svg", website),
@@ -254,8 +264,9 @@ def render(m, cfg):
         "featured": "\n".join(featured_md) or "_No public projects yet._",
         "opensource": img(files, "opensource.svg", "profile/CATALOG.md"),
         "explorer": "\n".join(explorer),
-        "activity": img(files, "activity.svg") + "\n\n" +
-                    img(files, "timeline.svg"),
+        "activity": img(files, "timeline.svg") + (
+            f'\n\n<p align="center"><sub>The contribution calendar below is GitHub\'s own · '
+            f'<a href="{site}#activity">Interactive activity explorer ↗</a></sub></p>' if site else ""),
         "statistics": img(files, "stats.svg") + "\n\n" +
                       img(files, "distribution.svg"),
         "connect": links,

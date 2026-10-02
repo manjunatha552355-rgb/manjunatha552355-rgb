@@ -12,7 +12,6 @@ FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,'Helvetica Neue',Arial
 INK, BODY, MUTED = "#17212B", "#46566A", "#7C8B9C"
 LINE, SURFACE, TINT, TINT_LINE = "#E3EAF2", "#F7FAFD", "#EBF5FD", "#D3E7F7"
 SKY, DEEP, SOFT = "#3B9BDB", "#1D6FB2", "#A9D4F2"
-HEAT = ["#EDF1F6", "#C9E2F6", "#8FC5EC", "#4A9FDB", "#1D6FB2"]   # one hue, light → dark
 EASE = "cubic-bezier(.22,.61,.36,1)"
 
 CSS = f"""
@@ -439,73 +438,6 @@ def distribution(languages, categories, repo_count, W=WIDE):
     label = ("Languages: " + ", ".join(f"{n} {v}" for n, _, v in langs) +
              ". Projects by category: " + ", ".join(f"{n} {v}" for n, _, v in cats) + ".")
     return document(W, H, frame(8, 8, W - 16, H - 16, 20) + "".join(out), label)
-
-
-# ── Contribution activity ───────────────────────────────────────────────────
-
-def activity(stats, W=WIDE):
-    wide = W >= 700
-    cell, step = 11, 14
-    x_l = 40 if wide else 28
-    days_all = [(date.fromisoformat(d), c) for d, c in stats["days"]]
-    if not days_all:
-        return document(W, 120, frame(8, 8, W - 16, 104, 20) + text(x_l, 66, "No public contribution data yet.", 13, "m"),
-                        "No contribution data")
-    max_weeks = (W - 2 * x_l - 30) // step
-    offset_all = (days_all[0][0].weekday() + 1) % 7          # GitHub weeks start on Sunday
-    total_weeks = (len(days_all) + offset_all + 6) // 7
-    skip_weeks = max(0, total_weeks - max_weeks)
-    days = days_all[max(0, skip_weeks * 7 - offset_all):]
-    offset = (days[0][0].weekday() + 1) % 7
-    weeks = (len(days) + offset + 6) // 7
-    nonzero = sorted(c for _, c in days_all if c)
-    q = [nonzero[int(len(nonzero) * f)] for f in (.25, .5, .75)] if nonzero else [1, 1, 1]
-
-    def level(c):
-        return 0 if not c else 1 if c <= q[0] else 2 if c <= q[1] else 3 if c <= q[2] else 4
-
-    x0 = W - x_l - weeks * step + (step - cell)
-    y0 = 92 if wide else 112
-    cols, months, last_month = {}, [], None
-    for i, (d, c) in enumerate(days):
-        col, row = (i + offset) // 7, (i + offset) % 7
-        cols.setdefault(col, []).append(
-            f'<rect x="{x0 + col * step}" y="{y0 + row * step}" width="{cell}" height="{cell}" rx="2.5" '
-            f'fill="{HEAT[level(c)]}"/>')
-        if d.month != last_month and col < weeks - 1:
-            if months and col - months[-1][0] < 3:   # partial month at the window edge: keep the newer label
-                months.pop()
-            months.append((col, f"{d:%b}"))
-            last_month = d.month
-    months = [text(x0 + col * step, y0 - 10, label, 10.5, "m") for col, label in months]
-    grid = "".join(anim("".join(r), delay=.15 + .016 * col) for col, r in sorted(cols.items()))
-    wk = "".join(text(x0 - 10, y0 + r * step + 9, n, 10, "m", anchor="end") for r, n in ((1, "Mon"), (3, "Wed"), (5, "Fri")))
-    ly = y0 + 7 * step + 12
-    legend_x = W - x_l - 5 * step - 34
-    legend = (text(legend_x - 8, ly + 9, "Less", 10.5, "m", anchor="end") +
-              "".join(f'<rect x="{legend_x + i * step}" y="{ly}" width="{cell}" height="{cell}" rx="2.5" fill="{h}"/>'
-                      for i, h in enumerate(HEAT)) + text(legend_x + 5 * step + 4, ly + 9, "More", 10.5, "m"))
-    span = f"{fmt_date(days[0][0].isoformat())} – {fmt_date(days[-1][0].isoformat())}"
-    eyebrow = "CONTRIBUTIONS · LAST 12 MONTHS" if not skip_weeks else f"CONTRIBUTIONS · LAST {weeks} WEEKS"
-    head = text(x_l, 52, eyebrow, 11, "e") + (text(W - x_l, 52, span, 11.5, "m", anchor="end") if wide
-                                               else text(x_l, 72, span, 11.5, "m"))
-    metrics = [(fmt_num(stats["total"]), "Contributions · 12 mo"), (str(stats["active_days"]), "Active days · 12 mo"),
-               (f"{stats['current_streak']}d", "Current streak"), (f"{stats['longest_streak']}d", "Longest streak"),
-               (str(stats["best_day"]["count"]),
-                f"Best day · {fmt_date(stats['best_day']['date'])}" if stats["best_day"]["count"] else "Best day")]
-    per_row = 5 if wide else 2
-    mw = (W - 2 * x_l) / per_row
-    top = ly + 34
-    tiles = "".join(anim(text(x_l + (i % per_row) * mw, top + 34 + (i // per_row) * 56, v, 24, "n", weight=650,
-                              extra=' letter-spacing="-0.4"') +
-                         text(x_l + (i % per_row) * mw, top + 54 + (i // per_row) * 56, truncate(l, 11.5, mw - 12), 11.5, "m"),
-                         delay=.9 + .07 * i) for i, (v, l) in enumerate(metrics))
-    H = top + 54 + (math.ceil(len(metrics) / per_row) - 1) * 56 + 30
-    body = (frame(8, 8, W - 16, H - 16, 20) + head + "".join(months) + wk + grid + legend +
-            f'<line x1="{x_l}" y1="{top}" x2="{W - x_l}" y2="{top}" stroke="{LINE}"/>' + tiles)
-    label = (f"Contribution calendar, {span}: {stats['total']} contributions in 12 months on {stats['active_days']} "
-             f"active days; longest streak {stats['longest_streak']} days.")
-    return document(W, H, body, label)
 
 
 # ── Timeline ────────────────────────────────────────────────────────────────
