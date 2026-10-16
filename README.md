@@ -57,7 +57,7 @@ I design and build AI systems end to end, from data pipelines and model architec
 <a href="https://github.com/manjunatha552355-rgb/toon-llm"><picture><source media="(max-width: 600px)" srcset="profile/generated/card-toon-llm-m.svg"><img src="profile/generated/card-toon-llm.svg" width="100%" alt="toon-llm: India's Sovereign Financial Language Model — 152M params, Clifford algebra + THGA attention + RASOAP optimizer Clifford Cl(3,1) Algebra. THGA Attention. DSNA. MoE (8 experts). 0 stars, 1 commits."></picture></a>
 <p align="center"><sub><a href="https://github.com/manjunatha552355-rgb/toon-llm"><b>Repository</b></a></sub></p>
 
-<a href="https://github.com/manjunatha552355-rgb/cortextrace"><picture><source media="(max-width: 600px)" srcset="profile/generated/card-cortextrace-m.svg"><img src="profile/generated/card-cortextrace.svg" width="100%" alt="cortextrace: Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP, OpenTelemetry) Discovers. Collects via. Detects. Explains. 1 stars, 8 commits."></picture></a>
+<a href="https://github.com/manjunatha552355-rgb/cortextrace"><picture><source media="(max-width: 600px)" srcset="profile/generated/card-cortextrace-m.svg"><img src="profile/generated/card-cortextrace.svg" width="100%" alt="cortextrace: Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP, OpenTelemetry) Discovers. Collects via. Detects. Explains. 2 stars, 8 commits."></picture></a>
 <p align="center"><sub><a href="https://github.com/manjunatha552355-rgb/cortextrace"><b>Repository</b></a> &nbsp;·&nbsp; <a href="https://aiandmlconsultants.com/">Website</a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/cortextrace/tree/HEAD/docs">Documentation</a> &nbsp;·&nbsp; <a href="https://github.com/manjunatha552355-rgb/cortextrace/blob/HEAD/docs/ARCHITECTURE.md">Architecture</a></sub></p>
 
 <a href="https://github.com/manjunatha552355-rgb/AURA-AI-Assistant"><picture><source media="(max-width: 600px)" srcset="profile/generated/card-aura-ai-assistant-m.svg"><img src="profile/generated/card-aura-ai-assistant.svg" width="100%" alt="AURA-AI-Assistant: AURA - ambient AI voice assistant for Android: on-device VAD, Opus, Whisper transcription, Gemini 4-pillar summaries, action-item automation. Free-tier infrastructure. Two recording modes. On-device voice activity detection. Opus compression. Edge proxy on Cloudflare Workers. 0 stars, 17 commits."></picture></a>
@@ -94,7 +94,7 @@ I design and build AI systems end to end, from data pipelines and model architec
 
 | Repository | Description | Stack | Stars | Last commit |
 |---|---|---|--:|---|
-| [**cortextrace**](https://github.com/manjunatha552355-rgb/cortextrace) | Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP… | TypeScript · Electron · GitHub Actions | 1 | Oct 1, 2026 |
+| [**cortextrace**](https://github.com/manjunatha552355-rgb/cortextrace) | Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP… | TypeScript · Electron · GitHub Actions | 2 | Oct 1, 2026 |
 
 </details>
 <details>
@@ -124,7 +124,7 @@ I design and build AI systems end to end, from data pipelines and model architec
 
 ## Engineering Statistics
 
-<picture><source media="(max-width: 600px)" srcset="profile/generated/stats-m.svg"><img src="profile/generated/stats.svg" width="100%" alt="Engineering Statistics: Public repositories 5, Commits (default branches) 31, Languages 7, Technologies with evidence 24, Practice areas 5, Stars earned 1"></picture>
+<picture><source media="(max-width: 600px)" srcset="profile/generated/stats-m.svg"><img src="profile/generated/stats.svg" width="100%" alt="Engineering Statistics: Public repositories 5, Commits (default branches) 31, Languages 7, Technologies with evidence 24, Practice areas 5, Stars earned 2"></picture>
 
 <picture><source media="(max-width: 600px)" srcset="profile/generated/distribution-m.svg"><img src="profile/generated/distribution.svg" width="100%" alt="Languages: Python 40.4%, TypeScript 30.8%, JavaScript 10.9%, Kotlin 10.0%, HTML 5.4%, CSS 2.4%. Projects by category: LLM &amp; RAG 1, Generative AI 1, AI Agents &amp; Tooling 1, AI &amp; Machine Learning 1, Analytics 1."></picture>
 

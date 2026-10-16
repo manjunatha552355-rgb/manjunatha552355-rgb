@@ -18,7 +18,7 @@ Every repository on the profile, grouped by category. Generated from the GitHub 
 
 | Repository | Description | Stack | Stars | Last commit |
 |---|---|---|--:|---|
-| [**cortextrace**](https://github.com/manjunatha552355-rgb/cortextrace) | Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP… | TypeScript · Electron · GitHub Actions | 1 | Oct 1, 2026 |
+| [**cortextrace**](https://github.com/manjunatha552355-rgb/cortextrace) | Local-first desktop observability, tracing and threat detection for AI agents (Claude Code, Cursor, MCP… | TypeScript · Electron · GitHub Actions | 2 | Oct 1, 2026 |
 
 ## AI & Machine Learning
 
