@@ -1,6 +1,6 @@
 {
  "activity": {
-  "active_days": 11,
+  "active_days": 10,
   "best_day": {
    "count": 16,
    "date": "2026-09-15"
@@ -8,10 +8,6 @@
   "commits": 38,
   "current_streak": 0,
   "days": [
-   [
-    "2025-11-24",
-    1
-   ],
    [
     "2025-11-25",
     0
@@ -1467,6 +1463,10 @@
    [
     "2026-11-23",
     0
+   ],
+   [
+    "2026-11-24",
+    0
    ]
   ],
   "external_repos": [
@@ -1477,7 +1477,7 @@
   "pull_requests": 2,
   "repos_created": 7,
   "reviews": 0,
-  "total": 49
+  "total": 48
  },
  "categories": [
   {
